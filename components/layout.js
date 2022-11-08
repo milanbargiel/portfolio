@@ -1,9 +1,8 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
 
 export default function Layout({ children }) {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Milan Bargiel – building digital things</title>
         <meta
@@ -12,7 +11,7 @@ export default function Layout({ children }) {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>{children}</main>
+      <main className="container px-6 pt-8">{children}</main>
     </div>
   )
 }
