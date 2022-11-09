@@ -38,7 +38,7 @@ export default function ProjectList() {
         wideTextBox={true}
         image={kulturgeneratorPic}
         imageAlt="Poster from the online art gallery in the streets of Cologne, Germany"
-        imageStyles="ml-2 w-1/2 -rotate-6 rounded-md"
+        imageStyles="ml-2 w-1/2 -rotate-6 rounded-md md:w-2/3"
       ></Project>
     </div>
   )
