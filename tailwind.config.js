@@ -13,6 +13,10 @@ module.exports = {
           700: '#5c1006B3',
         },
         apricot: '#ffefe2',
+        purple: {
+          500: '#b1afdc',
+          700: '#9e9cc7',
+        },
       },
     },
   },
