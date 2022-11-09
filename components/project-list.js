@@ -6,7 +6,7 @@ import kulturgeneratorPic from '../public/kulturgenerator-cologne-street.jpg'
 
 export default function ProjectList() {
   return (
-    <div className="px-3">
+    <div className="px-3 md:p-0">
       <Project
         roles={['Editorial Product Development']}
         title="A lightweight, scalable database that stores more than 10.000 comments each day"
