@@ -13,6 +13,7 @@ export default function ProjectList() {
         description="In 2020, the news website ZEIT ONLINE replaced its Drupal-based comments database with a lightweight, flexible and scalable system that stores more than 10.000 new comments each day. As a product owner, I set up an agile development process and defined the new database’s qualities in user stories."
         image={commentsPic}
         imageAlt="Comments database"
+        imageStyles="ml-12"
       ></Project>
       <Project
         roles={['Interface Design', 'Web Development']}
@@ -27,6 +28,7 @@ export default function ProjectList() {
         description="Comments are a crucial feature of the new web page. They enrich the discussion, are often complex and allow readers to engage with stories. The goal was to completely rebuild the old interface so that moderators have a delightful tool to work with."
         image={zocaPic}
         imageAlt="Example comments sections from ZEIT ONLINE"
+        imageStyles="w-3/5 rounded-md border border-gray-400"
       ></Project>
       <Project
         roles={['Product Design', 'Web Development']}
@@ -34,6 +36,7 @@ export default function ProjectList() {
         description="The &#8220;kulturgenerator&#8221; is a generative redistribution machine, an experiment, and a virtual store that existed in the city of Cologne during the first year of the COVID pandemic."
         image={kulturgeneratorPic}
         imageAlt="Poster from the online art gallery in the streets of Cologne, Germany"
+        imageStyles="ml-2 w-1/2 -rotate-6 rounded-md"
       ></Project>
     </div>
   )
