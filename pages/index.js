@@ -10,7 +10,7 @@ export default function Home() {
           roles="Editorial Product Development"
           title="A lightweight, scalable database that stores more than 10.000 comments each day"
           description="In 2020, the news website ZEIT ONLINE replaced its Drupal-based comments database with a lightweight, flexible and scalable system that stores more than 10.000 new comments each day. As a product owner, I set up an agile development process and defined the new database’s qualities in user stories."
-          imageURL="comments.svg"
+          imageURL="/comments-database.svg"
         ></Project>
       </div>
     </div>

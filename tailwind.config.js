@@ -12,6 +12,7 @@ module.exports = {
           500: '#ae8883',
           700: '#5c1006B3',
         },
+        apricot: '#ffefe2',
       },
     },
   },
