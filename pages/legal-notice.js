@@ -14,18 +14,18 @@ export default function LegalNotice() {
           </p>
           <a
             href="mailto:milanbargiel@pm.me"
-            class="underline mb-5 inline-block hover:text-purple-700"
+            className="underline mb-5 inline-block hover:text-purple-700"
           >
             milanbargiel@pm.me
           </a>
-          <p class="mb-5">
+          <p className="mb-5">
             Data Protection Policy (GDPR)
             <br />
             This website does not collect, store or process Personally
             Identifiable Information (PII). This website does not require the
             use of cookies.
           </p>
-          <p class="mb-5">
+          <p className="mb-5">
             Third Party Inclusion
             <br />
             This website is hosted by Github using Github Pages. The Github
@@ -33,7 +33,7 @@ export default function LegalNotice() {
             <a
               href="https://docs.github.com/en/github/site-policy/global-privacy-practices"
               target="_blank"
-              class="underline hover:text-pharlap-700"
+              className="underline hover:text-pharlap-700"
               rel="noreferrer"
             >
               here

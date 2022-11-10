@@ -2,7 +2,9 @@ import Image from 'next/image'
 
 export default function Project(props) {
   // Create HTML li items from props.roles array
-  const roleItems = props.roles.map((role) => <li key={role.id}>{role}</li>)
+  const roleItems = props.roles.map((role, index) => (
+    <li key={index}>{role}</li>
+  ))
 
   return (
     <article className="px-4 pt-8 pb-4 mb-12 rounded-md bg-apricot md:px-8 md:pb-8 md:pt-10 md:flex">
