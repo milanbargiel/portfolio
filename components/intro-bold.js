@@ -8,7 +8,7 @@ export default function Intro() {
         href="https://www.zeit.de/autoren/B/Milan_Bargiel/index"
         target="_blank"
         rel="noreferrer"
-        className="underline"
+        className="underline underline-offset-4 decoration-1 decoration-gray-700 hover:decoration-2 hover:transition-all hover:duration-150"
       >
         ZEIT ONLINE
       </a>
