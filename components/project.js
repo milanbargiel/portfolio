@@ -14,7 +14,7 @@ export default function Project(props) {
 
   return (
     <a href="#" className="group">
-      <article className="px-4 pt-8 pb-4 mb-12 rounded-lg bg-apricot md:px-8 md:pb-8 md:pt-12 md:flex">
+      <article className="drop-shadow-sm px-4 pt-8 pb-4 mb-12 rounded-lg bg-apricot md:px-8 md:pb-8 md:pt-12 md:flex">
         <div className={`md:flex md:flex-col md:mr-10 ${contentWidth}`}>
           <ul className="text-xs mb-6 leading-normal md:order-last md:mb-0">
             {roleItems}
