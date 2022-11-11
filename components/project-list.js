@@ -42,7 +42,7 @@ export default function ProjectList() {
         image={zocaPic}
         imageAlt="Example comments sections from ZEIT ONLINE"
         imageStyles="rounded-md w-3/4 rotate-1 drop-shadow-apricot"
-        linkText="View case study on the development blog of ZEIT ONLINE"
+        linkText="View case"
       >
         Comments are an essential feature of the German online news platform.
         They allow readers to exchange ideas, engage in discussion and react to
