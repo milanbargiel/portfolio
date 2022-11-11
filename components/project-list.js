@@ -22,9 +22,10 @@ export default function ProjectList() {
       </Project>
       <Project
         roles={['Interface Design', 'Web Development']}
-        title="Sustainable design patterns for architects, project developers and residents"
+        title="An archive of socio-ecological design patterns for architects, city developers and residents"
         image={bsePic}
         imageAlt="Screenshot of buildingsocialecology.org"
+        variant="wide-image"
       >
         A team of researchers from the University of Applied Sciences Potsdam in
         collaboration with the cultural center Nová Cvernovka in Bratislava
@@ -38,6 +39,7 @@ export default function ProjectList() {
         image={zocaPic}
         imageAlt="Example comments sections from ZEIT ONLINE"
         imageStyles="w-3/5 rounded-md border border-gray-400"
+        variant="wide-image"
       >
         Comments are an essential feature of the German online news platform.
         They allow readers to exchange ideas, engage in discussion and react to
@@ -50,7 +52,7 @@ export default function ProjectList() {
         title="Blueprint for a solidaric art gallery in times of quarantine and isolation"
         image={kulturgeneratorPic}
         imageAlt="Poster from the online art gallery in the streets of Cologne, Germany"
-        imageStyles="ml-2 w-1/2 -rotate-6 rounded-md md:w-2/3"
+        imageStyles="ml-2 w-1/2 -rotate-6 rounded-md md:w-4/5"
       >
         The &#8220;kulturgenerator&#8221; was a virtual store that existed in
         the city of Cologne during the first year of the COVID pandemic. It was
