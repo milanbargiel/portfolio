@@ -32,11 +32,7 @@ export default function Project(props) {
           className={`md:flex md:items-center md:justify-center md:ml-10 ${imgWidth}`}
         >
           <Image
-            className={
-              props.imageStyles
-                ? props.imageStyles
-                : 'rounded-md border border-gray-400 drop-shadow-sm'
-            }
+            className={props.imageStyles}
             src={props.image}
             alt={props.imageAlt}
           />

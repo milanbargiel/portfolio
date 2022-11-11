@@ -12,7 +12,7 @@ export default function ProjectList() {
         title="A lightweight, scalable database that stores more than 10.000 comments each day"
         image={commentsPic}
         imageAlt="Comments database"
-        imageStyles="w-20 ml-12 drop-shadow-sm md:w-28 md:ml-0"
+        imageStyles="w-20 ml-12 drop-shadow-sm md:w-28 md:ml-0 md:mr-12 rotate-1"
       >
         In 2020, the news website ZEIT ONLINE replaced its Drupal-based comments
         database with a lightweight, flexible and scalable system that stores
@@ -25,6 +25,7 @@ export default function ProjectList() {
         title="An archive of socio-ecological design patterns for architects, city developers and residents"
         image={bsePic}
         imageAlt="Screenshot of buildingsocialecology.org"
+        imageStyles="rounded-md border border-gray-400 drop-shadow-sm"
         variant="wide-image"
       >
         A team of researchers from the University of Applied Sciences Potsdam in
@@ -38,8 +39,7 @@ export default function ProjectList() {
         title="A digital tool for the moderation of comments at ZEIT ONLINE"
         image={zocaPic}
         imageAlt="Example comments sections from ZEIT ONLINE"
-        imageStyles="rounded-md w-3/4 drop-shadow-sm"
-        variant="wide-image"
+        imageStyles="rounded-md w-3/4 rotate-1 drop-shadow-sm"
       >
         Comments are an essential feature of the German online news platform.
         They allow readers to exchange ideas, engage in discussion and react to
