@@ -13,30 +13,31 @@ export default function Project(props) {
   const imgWidth = props.variant === 'wide-image' ? 'md:w-7/12' : 'md:w-5/12'
 
   return (
-    <a href="#" className="group">
-      <article className="drop-shadow-sm px-4 pt-8 pb-4 mb-12 rounded-lg bg-apricot md:px-8 md:pb-8 md:pt-12 md:flex">
-        <div className={`md:flex md:flex-col md:mr-10 ${contentWidth}`}>
-          <ul className="text-xs mb-6 leading-normal">{roleItems}</ul>
-          <h3
-            className={`mb-8 text-xl leading-snug font-medium ${
-              props.variant === 'wide-image' ? 'md:w-5/6' : 'md:w-5/6'
-            }`}
-          >
-            {props.title}
-          </h3>
-          <div className="text-sm mb-10">{props.children}</div>
-        </div>
-        <div
-          className={`md:flex md:items-center md:justify-center md:ml-10 ${imgWidth}`}
+    <article className="drop-shadow-sm px-4 pt-8 pb-4 mb-12 rounded-lg bg-apricot md:px-8 md:pb-8 md:pt-12 md:flex">
+      <div className={`md:flex md:flex-col md:mr-10 ${contentWidth}`}>
+        <ul className="text-xs mb-6 leading-normal">{roleItems}</ul>
+        <h3
+          className={`mb-8 text-xl leading-snug font-medium hover:cursor-pointer ${
+            props.variant === 'wide-image' ? 'md:w-5/6' : 'md:w-5/6'
+          }`}
         >
-          <Image
-            className={props.imageStyles}
-            src={props.image}
-            alt={props.imageAlt}
-          />
-        </div>
-      </article>
-    </a>
+          {props.title}
+        </h3>
+        <div className="text-xs mb-6">{props.children}</div>
+        <a class="inline-block text-xs underline hover:cursor-pointer hover:decoration-1 hover:transition-all hover:duration-150">
+          {props.linkText}
+        </a>
+      </div>
+      <div
+        className={`md:flex md:items-center md:justify-center md:ml-10 ${imgWidth}`}
+      >
+        <Image
+          className={props.imageStyles}
+          src={props.image}
+          alt={props.imageAlt}
+        />
+      </div>
+    </article>
   )
 }
 
