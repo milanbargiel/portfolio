@@ -8,7 +8,7 @@ export default function ProjectList() {
   return (
     <div className="px-2 mb-24 md:px-0">
       <Project
-        roles={['Editorial Product Development']}
+        roles={['Product Owner']}
         title="A lightweight, scalable database that stores more than 10.000 comments each day"
         image={commentsPic}
         imageAlt="Comments database"
@@ -21,7 +21,7 @@ export default function ProjectList() {
         user stories.
       </Project>
       <Project
-        roles={['Interface Design', 'Web Development']}
+        roles={['Design', 'Development']}
         title="An archive of socio-ecological design patterns for architects, city developers and residents"
         image={bsePic}
         imageAlt="Screenshot of buildingsocialecology.org"
@@ -35,7 +35,7 @@ export default function ProjectList() {
         that is easily maintainable.
       </Project>
       <Project
-        roles={['Editorial Product Development', 'Usability Engineering']}
+        roles={['Product Owner', 'Prototyping']}
         title="A digital tool for the moderation of comments at ZEIT ONLINE"
         image={zocaPic}
         imageAlt="Example comments sections from ZEIT ONLINE"
@@ -48,7 +48,7 @@ export default function ProjectList() {
         workflows.
       </Project>
       <Project
-        roles={['Product Design', 'Web Development']}
+        roles={['Product Design', 'Development']}
         title="Blueprint for a solidaric art gallery in times of quarantine and isolation"
         image={kulturgeneratorPic}
         imageAlt="Poster from the online art gallery in the streets of Cologne, Germany"
@@ -58,8 +58,8 @@ export default function ProjectList() {
         the city of Cologne during the first year of the COVID pandemic. It was
         a platform that allowed artists to collaboratively feed a money pool
         that at the end of a round was distributed evenly amongst all
-        participants. I was part of the product team that developed the concept
-        of the web shop and the online gallery.
+        participants. I was part of the product team that ideated the concept of
+        the online gallery and that implemented the web shop from scratch.
       </Project>
     </div>
   )
