@@ -9,8 +9,8 @@ export default function Project(props) {
 
   // Create layout width classes
   const contentWidth =
-    props.variant === 'wide-image' ? 'md:w-6/12' : 'md:w-7/12'
-  const imgWidth = props.variant === 'wide-image' ? 'md:w-6/12' : 'md:w-5/12'
+    props.variant === 'wide-image' ? 'md:w-5/12' : 'md:w-7/12'
+  const imgWidth = props.variant === 'wide-image' ? 'md:w-7/12' : 'md:w-5/12'
 
   return (
     <a href="#" className="group">

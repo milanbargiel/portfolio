@@ -38,7 +38,7 @@ export default function ProjectList() {
         title="A digital tool for the moderation of comments at ZEIT ONLINE"
         image={zocaPic}
         imageAlt="Example comments sections from ZEIT ONLINE"
-        imageStyles="w-3/5 rounded-md border border-gray-400"
+        imageStyles="rounded-md w-3/4 drop-shadow-sm"
         variant="wide-image"
       >
         Comments are an essential feature of the German online news platform.
