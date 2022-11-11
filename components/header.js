@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <nav className="py-5 px-7 flex-1">
+    <nav className="py-6 px-7 flex-1 md:py-4 md:px-0">
       <ul className="flex gap-12 justify-end font-bold">
         <li className="text-purple-500 hover:text-purple-700">
           <a

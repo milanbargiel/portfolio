@@ -18,7 +18,7 @@ Home.getLayout = function getLayout(page) {
     <Layout>
       {page}
       <FooterButton href="/legal-notice">
-        Legal notice &<br /> data privacy
+        Legal notice &<br className="md:hidden" /> data privacy
       </FooterButton>
     </Layout>
   )

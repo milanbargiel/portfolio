@@ -6,13 +6,13 @@ import kulturgeneratorPic from '../public/kulturgenerator-cologne-street.jpg'
 
 export default function ProjectList() {
   return (
-    <div className="px-2 md:p-0">
+    <div className="px-2 mb-24 md:px-0">
       <Project
         roles={['Editorial Product Development']}
         title="A lightweight, scalable database that stores more than 10.000 comments each day"
         image={commentsPic}
         imageAlt="Comments database"
-        imageStyles="w-20 ml-12 drop-shadow-sm md:w-24 md:pt-12 md:ml-4"
+        imageStyles="w-20 ml-12 drop-shadow-sm md:w-28 md:ml-0"
       >
         In 2020, the news website ZEIT ONLINE replaced its Drupal-based comments
         database with a lightweight, flexible and scalable system that stores
