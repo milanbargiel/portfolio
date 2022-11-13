@@ -12,7 +12,7 @@ export default function ProjectList() {
         title="A lightweight, scalable database that stores more than 10.000 comments each day"
         image={commentsPic}
         imageAlt="Comments database"
-        imageStyles="w-20 ml-12 md:w-28 md:ml-0 md:mr-12 rotate-1 drop-shadow-apricot"
+        imageStyles="w-20 ml-12 md:w-24 md:ml-0 md:mr-12 rotate-1 drop-shadow-apricot"
         linkText="View case"
       >
         In 2020, the news website ZEIT ONLINE replaced its Drupal-based comments
@@ -26,7 +26,7 @@ export default function ProjectList() {
         title="An archive of socio-ecological design patterns for architects, city developers and residents"
         image={bsePic}
         imageAlt="Screenshot of buildingsocialecology.org"
-        imageStyles="rounded-md border border-gray-400 drop-shadow-apricot"
+        imageStyles="rounded-md drop-shadow-apricot"
         variant="wide-image"
         linkText="Visit website"
       >

@@ -4,7 +4,9 @@ import PropTypes from 'prop-types'
 export default function Project(props) {
   // Create HTML li items from props.roles array
   const roleItems = props.roles.map((role, index) => (
-    <li key={index}>{role}</li>
+    <li key={index} className="mr-4">
+      {role}
+    </li>
   ))
 
   // Create layout width classes
@@ -16,6 +18,7 @@ export default function Project(props) {
     <article className="drop-shadow-sm px-4 pt-8 pb-4 mb-12 rounded-lg bg-apricot md:px-8 md:pb-8 md:pt-12 md:flex">
       <div className={`md:flex md:flex-col md:mr-10 ${contentWidth}`}>
         <ul className="text-xs mb-6 leading-normal">{roleItems}</ul>
+
         <h3
           className={`mb-8 text-2xl leading-tight font-medium hover:cursor-pointer ${
             props.variant === 'wide-image' ? 'md:w-5/6' : 'md:w-5/6'
@@ -24,7 +27,7 @@ export default function Project(props) {
           {props.title}
         </h3>
         <div className="text-xs mb-6">{props.children}</div>
-        <a className="inline-block text-xs underline hover:cursor-pointer hover:decoration-1 hover:transition-all hover:duration-150">
+        <a className="inline-block text-xs font-bold underline hover:cursor-pointer hover:decoration-2 hover:transition-all hover:duration-150">
           {props.linkText}
         </a>
       </div>
