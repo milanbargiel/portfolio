@@ -24,7 +24,7 @@ export default function Project(props) {
           {props.title}
         </h3>
         <div className="text-xs mb-6">{props.children}</div>
-        <a class="inline-block text-xs underline hover:cursor-pointer hover:decoration-1 hover:transition-all hover:duration-150">
+        <a className="inline-block text-xs underline hover:cursor-pointer hover:decoration-1 hover:transition-all hover:duration-150">
           {props.linkText}
         </a>
       </div>
@@ -39,9 +39,4 @@ export default function Project(props) {
       </div>
     </article>
   )
-}
-
-// Validate variant input
-Project.propTypes = {
-  variant: PropTypes.arrayOf(PropTypes.oneOf(['wide-image'])),
 }
