@@ -1,8 +1,8 @@
 export default function Intro() {
   return (
-    <div className="mx-auto max-w-3xl text-center text-4xl leading-[1.15] pt-12 pb-20 px-3 md:pt-20 md:pb-36 md:px-16">
+    <div className="mx-auto max-w-3xl text-2xl leading-snug pt-12 pb-20 px-3 md:text-4xl md:leading-[1.15] md:text-center md:pt-20 md:pb-36 md:px-16">
       Hello, my name is Milan Bargiel. <br className="hidden md:inline" />I am a
-      freelance product and web developer based in Berlin, former editorial
+      product designer and web developer based in Berlin, former editorial
       product developer at&nbsp;
       <a
         href="https://www.zeit.de/autoren/B/Milan_Bargiel/index"
@@ -13,7 +13,8 @@ export default function Intro() {
         ZEIT ONLINE
       </a>
       . I am interested in UX design, research and building digital things. Find
-      some selected projects below. For inquiries contact: &nbsp;
+      some selected projects below. For inquiries contact:&nbsp;
+      <br class="hidden md:inline" />
       <a
         className="underline underline-offset-4 decoration-1 decoration-gray-700 hover:decoration-2 hover:transition-all hover:duration-150"
         href="mailto:mail@milanbargiel.com"

@@ -8,11 +8,11 @@ export default function ProjectList() {
   return (
     <div className="px-2 mb-24 md:px-0">
       <Project
-        roles={['Product Owner']}
+        roles={['Editorial Product Development']}
         title="A lightweight, scalable database that stores more than 10.000 comments each day"
         image={commentsPic}
         imageAlt="Comments database"
-        imageStyles="w-20 ml-12 md:w-24 md:ml-0 md:mr-12 rotate-1 drop-shadow-apricot"
+        imageStyles="w-20 ml-16 md:w-24 md:ml-0 md:mr-12 rotate-1 drop-shadow-apricot"
         linkText="View case"
       >
         In 2020, the news website ZEIT ONLINE replaced its Drupal-based comments
@@ -37,7 +37,7 @@ export default function ProjectList() {
         that is easily maintainable.
       </Project>
       <Project
-        roles={['Product Owner', 'Prototyping']}
+        roles={['Editorial Product Development', 'Prototyping']}
         title="A digital tool for the moderation of comments at ZEIT ONLINE"
         image={zocaPic}
         imageAlt="Example comments sections from ZEIT ONLINE"
@@ -45,7 +45,7 @@ export default function ProjectList() {
         linkText="View case"
       >
         Comments are an essential feature of the German online news platform.
-        They allow readers to exchange ideas, engage in discussion and react to
+        They allow readers to exchange ideas, engage in discussions and react to
         stories. To help the team of moderators to keep comment sections a safe
         space, a new tool was designed that reduced the complexity of former
         workflows.
@@ -55,7 +55,7 @@ export default function ProjectList() {
         title="Blueprint for a solidaric art gallery in times of quarantine and isolation"
         image={kulturgeneratorPic}
         imageAlt="Poster from the online art gallery in the streets of Cologne, Germany"
-        imageStyles="ml-2 w-1/2 -rotate-6 rounded-md md:w-4/5 drop-shadow-apricot"
+        imageStyles="ml-2 w-2/3 -rotate-6 rounded-md md:w-4/5 drop-shadow-apricot"
         linkText="View case"
       >
         The &#8220;kulturgenerator&#8221; was a virtual store that existed in

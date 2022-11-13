@@ -15,19 +15,18 @@ export default function Project(props) {
   const imgWidth = props.variant === 'wide-image' ? 'md:w-7/12' : 'md:w-5/12'
 
   return (
-    <article className="drop-shadow-sm px-4 pt-8 pb-4 mb-12 rounded-lg bg-apricot md:px-8 md:pb-8 md:pt-12 md:flex">
+    <article className="drop-shadow-sm px-4 pt-8 pb-4 mb-8 rounded-lg bg-apricot md:mb-12 md:px-8 md:pb-8 md:pt-12 md:flex">
       <div className={`md:flex md:flex-col md:mr-10 ${contentWidth}`}>
         <ul className="text-xs mb-6 leading-normal">{roleItems}</ul>
-
         <h3
-          className={`mb-8 text-2xl leading-tight font-medium hover:cursor-pointer ${
+          className={`mb-8 text-xl leading-snug hover:cursor-pointer ${
             props.variant === 'wide-image' ? 'md:w-5/6' : 'md:w-5/6'
           }`}
         >
           {props.title}
         </h3>
-        <div className="text-xs mb-6">{props.children}</div>
-        <a className="inline-block text-xs font-bold underline hover:cursor-pointer hover:decoration-2 hover:transition-all hover:duration-150">
+        <div className="mb-8 md:mb-6 md:text-xs">{props.children}</div>
+        <a className="hidden md:inline-block text-xs font-bold underline hover:cursor-pointer hover:decoration-2 hover:transition-all hover:duration-150">
           {props.linkText}
         </a>
       </div>
