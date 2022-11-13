@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 export default function Project(props) {
   // Create HTML li items from props.roles array
   const roleItems = props.roles.map((role, index) => (
-    <li key={index} className="mr-4">
+    <li key={index} className="text-purple-700">
       {role}
     </li>
   ))
@@ -25,10 +25,12 @@ export default function Project(props) {
         >
           {props.title}
         </h3>
-        <div className="mb-8 md:mb-6 md:text-xs">{props.children}</div>
-        <a className="hidden md:inline-block text-xs font-bold underline hover:cursor-pointer hover:decoration-2 hover:transition-all hover:duration-150">
-          {props.linkText}
-        </a>
+        <div className="mb-8 md:mb-6 md:text-sm">{props.children}</div>
+        <div>
+          <a className="hidden md:inline-block text-xs underline underline-offset-2 font-medium hover:cursor-pointer hover:transition-all hover:duration-150">
+            {props.linkText}
+          </a>
+        </div>
       </div>
       <div
         className={`md:flex md:items-center md:justify-center md:ml-10 ${imgWidth}`}

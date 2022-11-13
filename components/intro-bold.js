@@ -1,6 +1,6 @@
 export default function Intro() {
   return (
-    <div className="mx-auto max-w-3xl text-2xl leading-snug pt-12 pb-20 px-3 md:text-4xl md:leading-[1.15] md:text-center md:pt-20 md:pb-36 md:px-16">
+    <div className="mx-auto max-w-2xl text-2xl leading-snug pt-12 pb-20 px-3 md:text-3xl md:text-center md:pt-20 md:pb-32 md:px-16">
       Hello, my name is Milan Bargiel. <br className="hidden md:inline" />I am a
       product designer and web developer based in Berlin, former editorial
       product developer at&nbsp;

@@ -14,8 +14,8 @@ module.exports = {
         },
         apricot: '#ffefe2',
         purple: {
-          500: '#b1afdc',
-          700: '#9e9cc7',
+          500: '#B1ADFC',
+          700: '#8D89E0',
         },
       },
       dropShadow: {
