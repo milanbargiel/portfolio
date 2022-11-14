@@ -1,5 +1,8 @@
-import Link from 'next/link'
+import Link from '../components/link'
+import Image from 'next/image'
 import Layout from '../components/layout'
+import kulturgeneratorOutside from '../public/kulturgenerator-cologne-street.jpg'
+import kulturgeneratorApp from '../public/kulturgenerator.png'
 
 export default function Home() {
   return (
@@ -8,9 +11,25 @@ export default function Home() {
         <h1 className="font-bold">Milan Bargiel</h1>
         <span className="text-gray-500 mb-4">Product & web developer</span>
       </Link>
-      <h2 className="text-2xl mb-12">
+      <h2 className="text-3xl leading-tight mb-16">
         Blueprint for a virtual art gallery in times of quarantine and isolation
       </h2>
+      <Image
+        src={kulturgeneratorApp}
+        alt="Screenshot from the kulturgenerator online gallery"
+        className="border border-gray-400 rounded -rotate-6 mb-8"
+      ></Image>
+      <div className="flex flex-col justify-center p-8">
+        <Image
+          src={kulturgeneratorOutside}
+          alt="Billboard from the online art gallery in the streets of Cologne, Germany"
+          className="rounded mb-1"
+        ></Image>
+        <div className="text-xs">
+          Poster advertising for the Kulturgenerator in the city of Cologne.
+          Photocredits: Ludwig Lederer
+        </div>
+      </div>
       <p className="mb-6">
         The &#8220;kulturgenerator&#8221; is a generative redistribution
         machine, an experiment, and a virtual store that existed in the city of
@@ -46,6 +65,14 @@ export default function Home() {
         The platform is a collaboration between the Cultural Council of Cologne,
         Niehler Freiheit e.V., and the art center Wachsfabrik.
       </p>
+      <h3 class="text-lg">Press:</h3>
+      <Link
+        href="https://www.ksta.de/kultur/-kulturgenerator--wie-solidaritaet-unter-kunstschaffenden-funktionieren-kann-38201176?cb=1666700185340&"
+        variant="underline"
+      >
+        Wie Solidarität unter Kunstschaffenden funktionieren kann – Kölner
+        Stadtanzeiger
+      </Link>
     </div>
   )
 }
