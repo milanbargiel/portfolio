@@ -30,7 +30,7 @@ export default function ProjectList() {
         imageStyles="rounded-md drop-shadow-apricot"
         variant="wide-image"
         linkText="Visit website"
-        href="#"
+        href="https://www.buildingsocialecology.org/"
       >
         A team of researchers from the University of Applied Sciences Potsdam in
         collaboration with the cultural center Nová Cvernovka in Bratislava

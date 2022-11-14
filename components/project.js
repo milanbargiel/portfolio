@@ -18,13 +18,7 @@ export default function Project(props) {
     <article className="drop-shadow-sm px-4 pt-8 pb-4 mb-8 rounded-lg bg-apricot md:mb-12 md:px-8 md:pb-8 md:pt-12 md:flex">
       <div className={`md:flex md:flex-col md:mr-10 ${contentWidth}`}>
         <ul className="text-sm mb-6 leading-normal">{roleItems}</ul>
-        <h3
-          className={`mb-8 text-xl leading-snug hover:cursor-pointer ${
-            props.variant === 'wide-image' ? 'md:w-5/6' : 'md:w-5/6'
-          }`}
-        >
-          {props.title}
-        </h3>
+        <h3 className="mb-8 text-xl leading-snug md:w-5/6">{props.title}</h3>
         <div className="mb-8 md:mb-6 md:text-sm">{props.children}</div>
         <div>
           <Link
