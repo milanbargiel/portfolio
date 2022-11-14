@@ -21,12 +21,14 @@ export default function Project(props) {
         <h3 className="mb-8 text-xl leading-snug md:w-5/6">{props.title}</h3>
         <div className="mb-8 md:mb-6 md:text-sm">{props.children}</div>
         <div>
-          <Link
-            className="hidden md:inline-block text-xs underline underline-offset-2 decoration-1 decoration-gray-700 font-medium hover:cursor-pointer hover:decoration-2"
-            href={props.href}
-          >
-            {props.linkText}
-          </Link>
+          {props.href && props.linkText && (
+            <Link
+              className="hidden md:inline-block text-xs underline underline-offset-2 decoration-1 decoration-gray-700 font-medium hover:cursor-pointer hover:decoration-2"
+              href={props.href}
+            >
+              {props.linkText}
+            </Link>
+          )}
         </div>
       </div>
       <div
