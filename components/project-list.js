@@ -12,7 +12,7 @@ export default function ProjectList() {
         title="A lightweight, scalable database that stores more than 10.000 comments each day"
         image={commentsPic}
         imageAlt="Comments database"
-        imageStyles="w-20 ml-16 md:w-24 md:ml-0 md:mr-12 rotate-1 drop-shadow-apricot"
+        imageStyles="w-20 ml-16 md:w-24 md:ml-0 md:mr-12 md:mt-8 rotate-1 drop-shadow-apricot"
         linkText="View case"
       >
         In 2020, the news website ZEIT ONLINE replaced its Drupal-based comments
