@@ -1,4 +1,4 @@
-import FooterButton from '../components/footer-button'
+import Link from 'next/link'
 import Layout from '../components/layout'
 
 export default function LegalNotice() {
@@ -14,7 +14,7 @@ export default function LegalNotice() {
         </p>
         <a
           href="mailto:milanbargiel@pm.me"
-          className="underline mb-5 inline-block hover:text-purple-700"
+          className="underline underline-offset-2 mb-5 inline-block decoration-1 decoration-gray-700 hover:decoration-2 hover:transition-all hover:duration-150"
         >
           milanbargiel@pm.me
         </a>
@@ -33,7 +33,7 @@ export default function LegalNotice() {
           <a
             href="https://docs.github.com/en/github/site-policy/global-privacy-practices"
             target="_blank"
-            className="underline hover:text-pharlap-700"
+            className="underline underline-offset-2 decoration-1 decoration-gray-700 hover:decoration-2 hover:transition-all hover:duration-150"
             rel="noreferrer"
           >
             here
@@ -50,10 +50,15 @@ LegalNotice.getLayout = function getLayout(page) {
   return (
     <Layout>
       {page}
-      <FooterButton href="/">
-        Return to <br />
-        homepage
-      </FooterButton>
+      <div className="text-center leading-tight mb-5">
+        <Link
+          href="/"
+          className="font-semibold text-purple-500 hover:text-purple-700"
+        >
+          Return to <br className="md:hidden" />
+          homepage
+        </Link>
+      </div>
     </Layout>
   )
 }

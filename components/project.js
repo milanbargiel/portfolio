@@ -27,7 +27,7 @@ export default function Project(props) {
         </h3>
         <div className="mb-8 md:mb-6 md:text-sm">{props.children}</div>
         <div>
-          <a className="hidden md:inline-block text-xs underline underline-offset-2 font-medium hover:cursor-pointer hover:transition-all hover:duration-150">
+          <a className="hidden md:inline-block text-xs underline underline-offset-2 decoration-1 decoration-gray-700 font-medium hover:cursor-pointer hover:decoration-2">
             {props.linkText}
           </a>
         </div>

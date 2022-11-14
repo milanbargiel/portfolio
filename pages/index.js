@@ -1,7 +1,7 @@
 import IntroBold from '../components/intro-bold'
 import ProjectList from '../components/project-list'
-import FooterButton from '../components/footer-button'
 import Layout from '../components/layout'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -17,9 +17,14 @@ Home.getLayout = function getLayout(page) {
   return (
     <Layout>
       {page}
-      <FooterButton href="/legal-notice">
-        Legal notice &<br className="md:hidden" /> data privacy
-      </FooterButton>
+      <div className="text-center leading-tight mb-5">
+        <Link
+          href="/legal-notice"
+          className="font-semibold text-gray-500 hover:text-gray-700"
+        >
+          Legal notice &<br className="md:hidden" /> data privacy
+        </Link>
+      </div>
     </Layout>
   )
 }

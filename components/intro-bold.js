@@ -1,9 +1,9 @@
 export default function Intro() {
   return (
-    <div className="mx-auto max-w-2xl text-2xl leading-snug pt-12 pb-20 px-3 md:text-3xl md:text-center md:pt-20 md:pb-32 md:px-16">
+    <div className="mx-auto max-w-2xl text-2xl leading-snug font-medium pt-12 pb-20 px-3 md:text-3xl md:text-center md:pt-20 md:pb-32 md:px-16">
       Hello, my name is Milan Bargiel. <br className="hidden md:inline" />I am a
-      product designer and web developer based in Berlin, former editorial
-      product developer at&nbsp;
+      product designer with web development skills based in Berlin, former
+      editorial product developer at&nbsp;
       <a
         href="https://www.zeit.de/autoren/B/Milan_Bargiel/index"
         target="_blank"
