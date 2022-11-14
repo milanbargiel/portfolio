@@ -43,12 +43,13 @@ export default function ProjectList() {
         imageAlt="Example comments sections from ZEIT ONLINE"
         imageStyles="rounded-md w-3/4 rotate-1 drop-shadow-apricot"
         linkText="View case"
+        link="https://blog.zeit.de/dev/design-thinking/"
       >
-        Comments are an essential feature of the German online news platform.
+        Comments are an essential feature of the online news media ZEIT ONLINE.
         They allow readers to exchange ideas, engage in discussions and react to
-        stories. To help the team of moderators to keep comment sections a safe
-        space, a new tool was designed that reduced the complexity of former
-        workflows.
+        stories. To help the team of professional moderators to keep comment
+        sections a safe space, a new tool was designed that reduced the
+        complexity of former workflows.
       </Project>
       <Project
         roles={['Product Design', 'Development']}

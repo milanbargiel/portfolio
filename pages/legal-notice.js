@@ -3,7 +3,7 @@ import Layout from '../components/layout'
 
 export default function LegalNotice() {
   return (
-    <div className="text-xl font-medium container mx-auto max-w-2xl text-center flex-1">
+    <div className="text-lg font-semibold leading-snug container mx-auto max-w-2xl text-center flex-1">
       <div className="py-12 px-3 md:p-20">
         <p className="mb-5">
           Milan Bargiel
