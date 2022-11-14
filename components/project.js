@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import PropTypes from 'prop-types'
+import Link from '../components/link'
 
 export default function Project(props) {
   // Create HTML li items from props.roles array
@@ -27,9 +27,12 @@ export default function Project(props) {
         </h3>
         <div className="mb-8 md:mb-6 md:text-sm">{props.children}</div>
         <div>
-          <a className="hidden md:inline-block text-xs underline underline-offset-2 decoration-1 decoration-gray-700 font-medium hover:cursor-pointer hover:decoration-2">
+          <Link
+            className="hidden md:inline-block text-xs underline underline-offset-2 decoration-1 decoration-gray-700 font-medium hover:cursor-pointer hover:decoration-2"
+            href={props.href}
+          >
             {props.linkText}
-          </a>
+          </Link>
         </div>
       </div>
       <div

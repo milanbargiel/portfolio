@@ -14,6 +14,7 @@ export default function ProjectList() {
         imageAlt="Comments database"
         imageStyles="w-20 ml-16 md:w-24 md:ml-0 md:mr-12 md:mt-8 rotate-1 drop-shadow-apricot"
         linkText="View case"
+        href="#"
       >
         In 2020, the news website ZEIT ONLINE replaced its Drupal-based comments
         database with a lightweight, flexible and scalable system that stores
@@ -29,6 +30,7 @@ export default function ProjectList() {
         imageStyles="rounded-md drop-shadow-apricot"
         variant="wide-image"
         linkText="Visit website"
+        href="#"
       >
         A team of researchers from the University of Applied Sciences Potsdam in
         collaboration with the cultural center Nová Cvernovka in Bratislava
@@ -43,7 +45,7 @@ export default function ProjectList() {
         imageAlt="Example comments sections from ZEIT ONLINE"
         imageStyles="rounded-md w-3/4 rotate-1 drop-shadow-apricot"
         linkText="View case"
-        link="https://blog.zeit.de/dev/design-thinking/"
+        href="https://blog.zeit.de/dev/design-thinking/"
       >
         Comments are an essential feature of the online news media ZEIT ONLINE.
         They allow readers to exchange ideas, engage in discussions and react to
@@ -58,6 +60,7 @@ export default function ProjectList() {
         imageAlt="Poster from the online art gallery in the streets of Cologne, Germany"
         imageStyles="ml-2 w-2/3 -rotate-6 rounded-md md:w-4/5 drop-shadow-apricot"
         linkText="View case"
+        href="#"
       >
         The &#8220;kulturgenerator&#8221; was a virtual store that existed in
         the city of Cologne during the first year of the COVID pandemic. It was
