@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import Layout from '../components/layout'
+import Header from '../components/header'
 
 export default function LegalNotice() {
   return (
@@ -49,6 +50,7 @@ export default function LegalNotice() {
 LegalNotice.getLayout = function getLayout(page) {
   return (
     <Layout>
+      <Header></Header>
       {page}
       <div className="text-center leading-tight mb-5">
         <Link

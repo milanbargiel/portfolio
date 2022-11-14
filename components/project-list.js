@@ -60,7 +60,7 @@ export default function ProjectList() {
         imageAlt="Poster from the online art gallery in the streets of Cologne, Germany"
         imageStyles="ml-2 w-2/3 -rotate-6 rounded-md md:w-4/5 drop-shadow-apricot"
         linkText="View case"
-        href="#"
+        href="/kulturgenerator"
       >
         The &#8220;kulturgenerator&#8221; was a virtual store that existed in
         the city of Cologne during the first year of the COVID pandemic. It was

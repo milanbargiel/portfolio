@@ -2,6 +2,7 @@ import IntroBold from '../components/intro-bold'
 import ProjectList from '../components/project-list'
 import Layout from '../components/layout'
 import Link from 'next/link'
+import Header from '../components/header'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
 Home.getLayout = function getLayout(page) {
   return (
     <Layout>
+      <Header></Header>
       {page}
       <div className="text-center leading-tight mb-5">
         <Link
