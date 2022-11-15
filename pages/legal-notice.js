@@ -3,43 +3,40 @@ import Layout from '../components/layout'
 
 export default function LegalNotice() {
   return (
-    <div className="text-lg font-semibold leading-snug container mx-auto max-w-2xl text-center flex-1">
-      <div className="py-12 px-4 md:p-20">
-        <p className="mb-6">
-          Milan Bargiel
-          <br />
-          Hauptstraße 36
-          <br />
-          10827 Berlin
-        </p>
+    <div className="py-12 px-4 text-lg font-semibold leading-snug container mx-auto max-w-2xl text-center flex-1 md:py-24">
+      <p className="mb-6">
+        Milan Bargiel
+        <br />
+        Hauptstraße 36
+        <br />
+        10827 Berlin
+      </p>
+      <Link
+        href="mailto:milanbargiel@pm.me"
+        variant="underline"
+        className="mb-6 inline-block"
+      >
+        milanbargiel@pm.me
+      </Link>
+      <p className="mb-6">
+        Data Protection Policy (GDPR)
+        <br />
+        This website does not collect, store or process Personally Identifiable
+        Information (PII). This website does not require the use of cookies.
+      </p>
+      <p className="mb-6">
+        Third Party Inclusion
+        <br />
+        This website is hosted by Github using Github Pages. The Github Global
+        Privacy Practices are available&nbsp;
         <Link
-          href="mailto:milanbargiel@pm.me"
+          href="https://docs.github.com/en/github/site-policy/global-privacy-practices"
           variant="underline"
-          className="mb-6 block"
         >
-          milanbargiel@pm.me
+          here
         </Link>
-        <p className="mb-6">
-          Data Protection Policy (GDPR)
-          <br />
-          This website does not collect, store or process Personally
-          Identifiable Information (PII). This website does not require the use
-          of cookies.
-        </p>
-        <p className="mb-6">
-          Third Party Inclusion
-          <br />
-          This website is hosted by Github using Github Pages. The Github Global
-          Privacy Practices are available&nbsp;
-          <Link
-            href="https://docs.github.com/en/github/site-policy/global-privacy-practices"
-            variant="underline"
-          >
-            here
-          </Link>
-          .
-        </p>
-      </div>
+        .
+      </p>
     </div>
   )
 }
