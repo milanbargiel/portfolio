@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import Link from '../components/link'
 import Layout from '../components/layout'
 
 export default function LegalNotice() {
@@ -12,12 +12,13 @@ export default function LegalNotice() {
           <br />
           10827 Berlin
         </p>
-        <a
+        <Link
           href="mailto:milanbargiel@pm.me"
-          className="underline underline-offset-2 mb-5 inline-block decoration-1 decoration-gray-700 hover:decoration-2 hover:transition-all hover:duration-150"
+          variant="underline"
+          className="mb-5 inline-block"
         >
           milanbargiel@pm.me
-        </a>
+        </Link>
         <p className="mb-5">
           Data Protection Policy (GDPR)
           <br />

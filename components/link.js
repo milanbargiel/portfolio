@@ -4,28 +4,26 @@ import PropTypes from 'prop-types'
 import NextLink from 'next/link'
 
 function Link({ href, className, children, variant }) {
-  let classes
-  const isExternal = href.includes('https')
-
   // Create styles for the link variant
+  let customClasses = className ? className : ''
+
   switch (variant) {
     case 'underline':
-      classes =
-        'underline underline-offset-2 decoration-1 decoration-gray-700 hover:decoration-2 hover:transition-all hover:duration-150'
+      customClasses = `underline underline-offset-2 decoration-1 decoration-gray-700 hover:decoration-2 hover:transition-all hover:duration-150 ${customClasses}`
       break
-    default:
-      classes = className ? className : ''
   }
 
-  if (isExternal) {
+  const externalLink = href.includes('https')
+
+  if (externalLink) {
     return (
-      <a className={classes} href={href} target="_blank" rel="noreferrer">
+      <a className={customClasses} href={href} target="_blank" rel="noreferrer">
         {children}
       </a>
     )
   } else {
     return (
-      <NextLink href={href} className={classes}>
+      <NextLink href={href} className={customClasses}>
         {children}
       </NextLink>
     )
