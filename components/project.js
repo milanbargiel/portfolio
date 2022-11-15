@@ -11,13 +11,15 @@ export default function Project(props) {
 
   return (
     <article
-      className="drop-shadow-sm px-4 pt-12 pb-4 mb-8 rounded-lg md:mb-12 md:px-8 md:pb-8 md:pt-12 md:flex"
+      className={`drop-shadow-sm px-4 pt-12 pb-4 mb-8 rounded-lg md:rounded-md ${
+        props.className ? props.className : ''
+      }`}
       style={{ backgroundColor }}
     >
       <h3 className="mb-8 text-2xl leading-tight">{props.title}</h3>
       <div className="text-sm mb-8">{props.children}</div>
       {props.image && (
-        <div className="mb-8 overflow-hidden md:flex md:items-center md:justify-center md:ml-10">
+        <div className="mb-8 overflow-hidden">
           <Image
             className={props.imageStyles}
             src={props.image}
