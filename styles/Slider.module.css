@@ -1,4 +1,5 @@
 @media screen and (min-width: 768px) {
+  /* Stack projects on top of each other */
   .slide {
     position: absolute;
     top: 0;
@@ -24,5 +25,21 @@
   .slide:nth-child(4) {
     z-index: 10;
     transform: translate3d(-36%, 0, 0) scale3d(0.7, 0.7, 1);
+  }
+
+  /* Style the desktop navigation menu and its hover styles */
+  .project::after {
+    content: '';
+    width: 5.5rem;
+    @apply absolute bg-gray-500 -left-24 bottom-2 z-50 h-px scale-0 transition transform-gpu origin-right ease-out duration-200;
+  }
+
+  .projectActive {
+    @apply relative;
+  }
+
+  /* When the project becomes selected, show the line */
+  .projectActive::after {
+    @apply scale-100 transform-gpu;
   }
 }

@@ -52,22 +52,22 @@ export default function ProjectList() {
       {/* Desktop navigation */}
       <div className="hidden md:flex md:ml-10 md:w-1/2">
         <ul className="self-end">
-          <li className="mb-7">
-            <button className="font-semibold text-xl text-left">
-              Kulturgenerator
-            </button>
-          </li>
-          <li className="mb-7">
+          <li className={`${styles.project} ${styles.projectActive} mb-7`}>
             <button className="font-semibold text-xl text-left">
               Comments database
             </button>
           </li>
-          <li className="mb-7">
+          <li className={`${styles.project} mb-7`}>
+            <button className="font-semibold text-xl text-left">
+              Kulturgenerator
+            </button>
+          </li>
+          <li className={`${styles.project} mb-7`}>
             <button className="font-semibold text-xl text-left">
               A digital tool for the moderation of comments at ZEIT ONLINE
             </button>
           </li>
-          <li className="mb-7">
+          <li className={`${styles.project} mb-7`}>
             <button className="font-semibold text-xl text-left">
               Building Social Ecology
             </button>
