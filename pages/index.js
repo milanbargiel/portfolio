@@ -1,13 +1,12 @@
-import IntroBold from '../components/intro-bold'
+import Intro from '../components/intro'
 import ProjectList from '../components/project-list'
 import Layout from '../components/layout'
 import Link from 'next/link'
-import Header from '../components/header'
 
 export default function Home() {
   return (
     <div className="container mx-auto max-w-4xl">
-      <IntroBold></IntroBold>
+      <Intro></Intro>
       <ProjectList></ProjectList>
     </div>
   )
@@ -17,7 +16,6 @@ export default function Home() {
 Home.getLayout = function getLayout(page) {
   return (
     <Layout>
-      <Header></Header>
       {page}
       <div className="text-center leading-tight mb-5">
         <Link
