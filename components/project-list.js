@@ -16,14 +16,8 @@ export default function ProjectList() {
       >
         In 2020, the news website ZEIT ONLINE replaced its Drupal-based comments
         database with a scalable system that stores more than 10.000 new
-        comments a day. As a product owner, I managed an agile development
+        comments a day. As a product owner, I set up an agile development
         process and defined the new database’s qualities in user stories.
-        <br />
-        <br />
-        Thanks to a sync between the old database and the new one, we were able
-        to switch systems without hardly anyone noticing. Working in the
-        invisible and reconnecting a technology deeply intertwined within the
-        basic functioning of ZEIT ONLINE was an inspiring challenge.
       </Project>
       <Project
         roles={['Design', 'Development']}
@@ -63,16 +57,16 @@ export default function ProjectList() {
         image={kulturgeneratorPic}
         imageAlt="Poster from the online art gallery in the streets of Cologne, Germany"
         imageStyles="ml-2 w-2/3 -rotate-6 rounded-md md:w-4/5 drop-shadow-apricot"
-        linkText="Read newspaper article"
+        linkText="Read article"
         href="https://www.ksta.de/kultur-medien/kulturgenerator-online-galerie-soll-kuenstlern-in-der-krise-helfen-157774"
       >
         The &#8220;kulturgenerator&#8221; was a virtual store that existed in
         the city of Cologne during the first year of the COVID pandemic from
         2020 to 2021. The digital platform allowed artists to collaboratively
         sell their work and feed a solidaric money pool that at the end of each
-        round was distributed evenly amongst all participants. <br /> <br />I
-        was part of the design team that developed the concept of the gallery
-        and that implemented the web shop from scratch.
+        round was distributed evenly amongst all participants.I was part of the
+        design team that developed the concept of the gallery and that
+        implemented the web shop from scratch.
       </Project>
     </div>
   )
