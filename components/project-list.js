@@ -1,11 +1,11 @@
 import Project from '../components/project'
 import bsePic from '../public/buildingsocialecology.png'
 import zocaPic from '../public/zoca.png'
-import kulturgeneratorPic from '../public/kulturgenerator-cologne-street.jpg'
+import kulturgeneratorPic from '../public/kulturgenerator.png'
 
 export default function ProjectList() {
   return (
-    <div className="px-2 mb-24">
+    <div className="mx-4 mb-24">
       <Project
         roles={['Editorial Product Development']}
         title="A lightweight, scalable database that stores more than 10.000 comments a day"
@@ -18,47 +18,23 @@ export default function ProjectList() {
       </Project>
       <Project
         roles={['Product Design', 'Development']}
-        title="Blueprint for a solidaric art gallery in times of quarantine and isolation"
+        title="Kulturgenerator: A solidaric art gallery in times of quarantine and isolation"
         image={kulturgeneratorPic}
-        imageAlt="Poster from the online art gallery in the streets of Cologne, Germany"
-        imageStyles="ml-2 w-2/3 -rotate-6 rounded-md md:w-4/5 drop-shadow-apricot"
-        linkText="Read newspaper article"
-        href="https://www.ksta.de/kultur-medien/kulturgenerator-online-galerie-soll-kuenstlern-in-der-krise-helfen-157774"
+        imageAlt="Screenshot from the kulturgenerator web interface"
+        imageStyles="py-4 ml-2 w-2/3 -rotate-6 rounded-md md:w-4/5 drop-shadow-sm"
         color="#FFEFE2"
-      >
-        The &#8220;kulturgenerator&#8221; was a virtual store that existed in
-        the city of Cologne during the first year of the COVID pandemic from
-        2020 to 2021. The digital platform allowed artists to collaboratively
-        sell their work and feed a solidaric money pool that at the end of each
-        round was distributed evenly amongst all participants. <br /> <br />I
-        was part of the design team that developed the concept of the gallery
-        and that implemented the web shop from scratch.
-      </Project>
+      ></Project>
       <Project
         roles={['Design', 'Development']}
         title="An archive of socio-ecological design patterns for architects, city developers and residents"
         image={bsePic}
         imageAlt="Screenshot of buildingsocialecology.org"
-        imageStyles="rounded-md drop-shadow-apricot"
-        variant="wide-image"
-        linkText="Visit website"
-        href="https://www.buildingsocialecology.org/"
+        imageStyles="rounded-md drop-shadow-sm border border-gray-700"
         color="#07D070"
-      >
-        A team of researchers from the University of Applied Sciences Potsdam in
-        collaboration with the cultural center Nová Cvernovka in Bratislava
-        investigated design patterns for socio-ecological buildings in Europe. I
-        worked with them to build a web page that showcases best practices for
-        the building sector and that is easily maintainable.
-      </Project>
+      ></Project>
       <Project
         roles={['Editorial Product Development', 'Prototyping']}
         title="A digital tool for the moderation of comments at ZEIT ONLINE"
-        image={zocaPic}
-        imageAlt="Example comments sections from ZEIT ONLINE"
-        imageStyles="rounded-md w-3/4 rotate-1 drop-shadow-apricot"
-        linkText="View case"
-        href="https://blog.zeit.de/dev/design-thinking/"
       >
         Comment sections are an essential feature of the online news media ZEIT
         ONLINE. They allow readers to exchange ideas, engage in discussions and

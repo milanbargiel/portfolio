@@ -2,7 +2,7 @@ import Link from '../components/link'
 
 export default function Intro() {
   return (
-    <div className="mx-6 my-12 md:mb-20 md:mx-8 md:w-2/3">
+    <div className="mx-8 my-12 md:mb-20 md:mx-8 md:w-2/3">
       <Link href="/" className="inline-block mb-24">
         <h1 className="font-semibold">Milan Bargiel</h1>
         <span className="text-gray-500 mb-4">Product & web developer</span>
