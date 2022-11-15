@@ -9,18 +9,15 @@ export default function ProjectList() {
     <div className="px-2 mb-24 md:px-0">
       <Project
         roles={['Editorial Product Development']}
-        title="A lightweight, scalable database that stores more than 10.000 comments each day"
+        title="A lightweight, scalable database that stores more than 10.000 comments a day"
         image={commentsPic}
         imageAlt="Comments database"
-        imageStyles="w-20 ml-16 md:w-24 md:ml-0 md:mr-12 md:mt-8 rotate-1 drop-shadow-apricot"
-        linkText="View case"
-        href="#"
+        imageStyles="hidden md:inline-block md:w-24 md:ml-0 md:mr-12 md:mt-8 rotate-1 drop-shadow-apricot"
       >
         In 2020, the news website ZEIT ONLINE replaced its Drupal-based comments
-        database with a lightweight, flexible and scalable system that stores
-        more than 10.000 new comments each day. As a product owner, I set up an
-        agile development process and defined the new database’s qualities in
-        user stories.
+        database with a scalable system that stores more than 10.000 new
+        comments a day. As a product owner, I set up an agile development
+        process and defined the new database’s qualities in user stories.
       </Project>
       <Project
         roles={['Design', 'Development']}
@@ -35,8 +32,8 @@ export default function ProjectList() {
         A team of researchers from the University of Applied Sciences Potsdam in
         collaboration with the cultural center Nová Cvernovka in Bratislava
         investigated design patterns for socio-ecological buildings in Europe. I
-        worked with them to build a web page that showcases key findings and
-        that is easily maintainable.
+        worked with them to build a web page that showcases best practices for
+        the building sector and that is easily maintainable.
       </Project>
       <Project
         roles={['Editorial Product Development', 'Prototyping']}
@@ -47,11 +44,12 @@ export default function ProjectList() {
         linkText="View case"
         href="https://blog.zeit.de/dev/design-thinking/"
       >
-        Comments are an essential feature of the online news media ZEIT ONLINE.
-        They allow readers to exchange ideas, engage in discussions and react to
-        stories. To help the team of professional moderators to keep comment
-        sections a safe space, a new tool was designed that reduced the
-        complexity of former workflows.
+        Comment sections are an essential feature of the online news media ZEIT
+        ONLINE. They allow readers to exchange ideas, engage in discussions and
+        react to stories. To help the team of professional moderators to do
+        their job and keep comment sections a safe space, a new tool was needed
+        that reduced the complexity of former workflows. In this project I took
+        the role of a product owner.
       </Project>
       <Project
         roles={['Product Design', 'Development']}
@@ -59,15 +57,16 @@ export default function ProjectList() {
         image={kulturgeneratorPic}
         imageAlt="Poster from the online art gallery in the streets of Cologne, Germany"
         imageStyles="ml-2 w-2/3 -rotate-6 rounded-md md:w-4/5 drop-shadow-apricot"
-        linkText="View case"
-        href="/kulturgenerator"
+        linkText="Read article"
+        href="https://www.ksta.de/kultur-medien/kulturgenerator-online-galerie-soll-kuenstlern-in-der-krise-helfen-157774"
       >
         The &#8220;kulturgenerator&#8221; was a virtual store that existed in
-        the city of Cologne during the first year of the COVID pandemic. It was
-        a platform that allowed artists to collaboratively feed a money pool
-        that at the end of a round was distributed evenly amongst all
-        participants. I was part of the product team that ideated the concept of
-        the online gallery and that implemented the web shop from scratch.
+        the city of Cologne during the first year of the COVID pandemic from
+        2020 to 2021. The digital platform allowed artists to collaboratively
+        sell their work and feed a solidaric money pool that at the end of each
+        round was distributed evenly amongst all participants.I was part of the
+        design team that developed the concept of the gallery and that
+        implemented the web shop from scratch.
       </Project>
     </div>
   )
