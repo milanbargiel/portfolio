@@ -20,7 +20,7 @@ Home.getLayout = function getLayout(page) {
       <div className="text-center leading-tight mb-5">
         <Link
           href="/legal-notice"
-          className="font-semibold text-gray-500 hover:text-gray-700"
+          className="font-semibold text-pharlap-500 hover:text-pharlap-700"
         >
           Legal notice &<br className="md:hidden" /> data privacy
         </Link>

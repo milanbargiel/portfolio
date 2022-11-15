@@ -17,7 +17,7 @@ export default function Project(props) {
       <h3 className="mb-8 text-2xl leading-tight">{props.title}</h3>
       <div className="text-sm mb-8">{props.children}</div>
       {props.image && (
-        <div className="mb-8 md:flex md:items-center md:justify-center md:ml-10">
+        <div className="mb-8 overflow-hidden md:flex md:items-center md:justify-center md:ml-10">
           <Image
             className={props.imageStyles}
             src={props.image}

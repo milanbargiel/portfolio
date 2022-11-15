@@ -21,7 +21,7 @@ export default function ProjectList() {
         title="Kulturgenerator: A solidaric art gallery in times of quarantine and isolation"
         image={kulturgeneratorPic}
         imageAlt="Screenshot from the kulturgenerator web interface"
-        imageStyles="py-4 ml-2 w-2/3 -rotate-6 rounded-md md:w-4/5 drop-shadow-sm"
+        imageStyles="my-4 ml-2 w-2/3 -rotate-6 rounded-md md:w-4/5 drop-shadow-sm"
         color="#FFEFE2"
       ></Project>
       <Project
