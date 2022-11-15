@@ -9,7 +9,7 @@ function Link({ href, className, children, variant }) {
 
   switch (variant) {
     case 'underline':
-      customClasses = `underline underline-offset-2 decoration-1 decoration-gray-700 hover:decoration-2 hover:transition-all hover:duration-150 ${customClasses}`
+      customClasses = `underline underline-offset-2 decoration-1 decoration-gray-400 hover:decoration-2 hover:transition-all hover:decoration-gray-700 hover:duration-150 ${customClasses}`
       break
   }
 

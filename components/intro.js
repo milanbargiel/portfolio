@@ -5,7 +5,7 @@ export default function Intro() {
     <div className="mx-8 my-12 md:mb-20 md:w-1/2">
       <Link href="/" className="inline-block mb-24">
         <h1 className="font-semibold">Milan Bargiel</h1>
-        <span className="text-gray-500">Product & web developer</span>
+        <span>Product & web developer</span>
       </Link>
       <div className="mb-12">
         <h2 className="font-semibold mb-4">About</h2>I am a product designer and
@@ -22,13 +22,18 @@ export default function Intro() {
       </div>
       <h2 className="font-semibold mb-4">Contact</h2>
       <div className="text-gray-500 md:basis-2/4">Email</div>
-      <Link href="mailto:mail@milanbargiel.com" className="block mb-4">
+      <Link
+        href="mailto:mail@milanbargiel.com"
+        className="block mb-4"
+        variant="underline"
+      >
         milanbargiel@pm.me
       </Link>
       <div className="text-gray-500 md:basis-2/4">LinkedIn</div>
       <Link
         href="https://www.linkedin.com/in/milanbargiel"
         className="block mb-4"
+        variant="underline"
       >
         @milanbargiel
       </Link>

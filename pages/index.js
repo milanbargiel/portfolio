@@ -17,10 +17,10 @@ Home.getLayout = function getLayout(page) {
   return (
     <Layout>
       {page}
-      <div className="text-center leading-tight mb-5">
+      <div className="text-center leading-tight mb-6">
         <Link
           href="/legal-notice"
-          className="font-semibold text-pharlap-500 hover:text-pharlap-700"
+          className="font-semibold text-pharlap-500 hover:text-pharlap-700 md:text-sm"
         >
           Legal notice &<br className="md:hidden" /> data privacy
         </Link>
