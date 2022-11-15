@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <div className="container mx-auto max-w-4xl">
+    <div className="container mx-auto max-w-6xl flex-1">
       <Intro></Intro>
       <ProjectList></ProjectList>
     </div>

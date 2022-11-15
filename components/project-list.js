@@ -1,11 +1,10 @@
 import Project from '../components/project'
 import bsePic from '../public/buildingsocialecology.png'
-import zocaPic from '../public/zoca.png'
 import kulturgeneratorPic from '../public/kulturgenerator.png'
 
 export default function ProjectList() {
   return (
-    <div className="mx-4 mb-24">
+    <div className="mx-4 mb-24 md:hidden">
       <Project
         roles={['Editorial Product Development']}
         title="A lightweight, scalable database that stores more than 10.000 comments a day"
