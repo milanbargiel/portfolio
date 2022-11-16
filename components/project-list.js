@@ -9,7 +9,6 @@ export default function ProjectList() {
         <Project
           roles={['Editorial Product Development']}
           title="A lightweight, scalable database that stores more than 10.000 comments a day"
-          className="md:w-3/12 md:mr-8"
         >
           In 2020, the news website ZEIT ONLINE replaced its Drupal-based
           comments database with a lightweight, flexible and scalable system
@@ -24,7 +23,6 @@ export default function ProjectList() {
           imageAlt="Screenshot from the kulturgenerator web interface"
           imageStyles="my-4 ml-2 w-2/3 -rotate-6 rounded-md md:w-4/5 drop-shadow-sm"
           color="#FFEFE2"
-          className="md:w-3/12 md:mr-8"
         ></Project>
         <Project
           roles={['Design', 'Development']}
@@ -33,12 +31,10 @@ export default function ProjectList() {
           imageAlt="Screenshot of buildingsocialecology.org"
           imageStyles="rounded-md drop-shadow-sm border border-gray-700"
           color="#07D070"
-          className="md:w-3/12 md:mr-8"
         ></Project>
         <Project
           roles={['Editorial Product Development', 'Prototyping']}
           title="A digital tool for the moderation of comments at ZEIT ONLINE"
-          className="md:w-3/12 md:mr-8"
         >
           Comment sections are an essential feature of the online news media
           ZEIT ONLINE. They allow readers to exchange ideas, engage in

@@ -11,7 +11,7 @@ export default function Project(props) {
 
   return (
     <article
-      className={`drop-shadow-sm px-4 pt-12 pb-4 mb-8 rounded-lg md:rounded-md ${
+      className={`drop-shadow-sm px-4 pt-12 pb-4 mb-8 rounded-lg md:mr-12 md:mb-12 md:w-5/12 2xl:w-3/12 ${
         props.className ? props.className : ''
       }`}
       style={{ backgroundColor }}
