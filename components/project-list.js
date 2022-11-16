@@ -42,15 +42,16 @@ export default function ProjectList() {
           <p className="mb-4">
             Comment sections allow readers of ZEIT ONLINE to exchange ideas,
             engage in discussions and react to stories. To help the team of
-            professional moderators to do their job and keep comment sections a
+            professional moderators do their job and keep comment sections a
             safe space, a new tool was needed that reduced the complexity of
             former workflows.
           </p>
           <p className="mb-4">
-            The goal was to completely rebuild the old interface so that
+            The goal was to completely rebuild the application so that
             moderators have a delightful tool to work with. Our team aimed at
             building a solution that allows for a seamless moderation
-            experience.
+            experience. It was a fascinating project and I learned a lot about
+            agile development.
           </p>
           <div className="mt-4">
             <Link
