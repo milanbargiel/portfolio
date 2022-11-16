@@ -3,13 +3,18 @@ import Layout from '../components/layout'
 
 export default function LegalNotice() {
   return (
-    <div className="py-12 px-4 text-lg font-semibold leading-snug container mx-auto max-w-2xl text-center flex-1 md:py-24 md:text-xl">
+    <div className="py-12 px-4 text-lg font-semibold text-gray-200 leading-snug container mx-auto max-w-2xl text-center flex-1 md:py-18 2xl:py-24 md:text-xl 2xl:text-2xl">
       <p className="mb-6">
         Milan Bargiel
         <br />
+        Product & web developer
+      </p>
+      <p className="mb-6">
         Hauptstraße 36
         <br />
         10827 Berlin
+        <br />
+        Germany
       </p>
       <Link
         href="mailto:milanbargiel@pm.me"
@@ -49,7 +54,7 @@ LegalNotice.getLayout = function getLayout(page) {
       <div className="text-center leading-tight mb-6">
         <Link
           href="/"
-          className="font-semibold text-purple-700 hover:text-purple-500 md:text-sm"
+          className="font-semibold text-purple-700 hover:text-purple-500 md:text-lg"
         >
           Return to <br className="md:hidden" />
           homepage
