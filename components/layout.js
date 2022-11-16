@@ -11,7 +11,7 @@ export default function Layout({ children }) {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="container mx-auto max-w-6xl min-h-screen flex flex-col">
+      <main className="container mx-auto min-h-screen flex flex-col">
         {children}
       </main>
     </div>
