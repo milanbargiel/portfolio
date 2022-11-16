@@ -5,7 +5,7 @@ import kulturgeneratorPic from '../public/kulturgenerator.png'
 export default function ProjectList() {
   return (
     <div>
-      <div className="mx-4 mb-24 md:flex md:flex-wrap">
+      <div className="mb-24 md:flex md:flex-wrap">
         <Project
           roles={['Editorial Product Development']}
           title="A lightweight, scalable database that stores more than 10.000 comments a day"
@@ -21,7 +21,7 @@ export default function ProjectList() {
           title="Kulturgenerator: A solidaric art gallery in times of quarantine and isolation"
           image={kulturgeneratorPic}
           imageAlt="Screenshot from the kulturgenerator web interface"
-          imageStyles="my-4 ml-2 w-2/3 -rotate-6 rounded-md md:w-4/5 drop-shadow-sm"
+          imageStyles="my-4 ml-2 w-1/3 -rotate-6 rounded-md md:w-4/5 drop-shadow-sm"
           color="#FFEFE2"
         ></Project>
         <Project
