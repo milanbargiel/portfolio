@@ -16,6 +16,8 @@ export default function Project(props) {
       }`}
       style={{ backgroundColor }}
     >
+      <ul className="text-sm mb-4 leading-normal">{roleItems}</ul>
+
       <h3 className="mb-8 text-2xl leading-tight">{props.title}</h3>
       <div className="text-sm mb-8">{props.children}</div>
       {props.image && (
@@ -27,7 +29,6 @@ export default function Project(props) {
           />
         </div>
       )}
-      <ul className="text-sm mb-4 leading-normal">{roleItems}</ul>
     </article>
   )
 }

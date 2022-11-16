@@ -1,22 +1,31 @@
 import Project from '../components/project'
 import bsePic from '../public/buildingsocialecology.png'
 import kulturgeneratorPic from '../public/kulturgenerator.png'
+import Link from '../components/link'
 
 export default function ProjectList() {
   return (
     <div>
       <div className="mb-24 md:flex md:flex-wrap">
         <Project
-          roles={['Editorial Product Development']}
+          roles={['Product Owner']}
           title="A lightweight, scalable database that stores more than 10.000 comments a day"
         >
-          In 2020, the news website ZEIT ONLINE replaced its Drupal-based
-          comments database with a lightweight, flexible and scalable system
-          that stores more than 10.000 new comments each day. As a product
-          owner, I was part of the team that set up an agile development process
-          and defined the new database’s qualities in user stories. Thanks to a
-          sophisticated sync between the old and the new database we were able
-          to switch systems without hardly anyone noticing.
+          <p className="mb-4">
+            In 2020, the news website ZEIT ONLINE replaced its Drupal-based
+            comments database with a lightweight, flexible and scalable system
+            that stores more than 10.000 new comments each day.
+          </p>
+          <p className="mb-4">
+            As a product owner I set up an agile development process and defined
+            the new database’s qualities in user stories.
+          </p>
+          <p className="mb-4">
+            The challenge was to exchange databases during live operations.
+            Working in the invisible and reconnecting a service deeply
+            intertwined with the basic functioning of the news web page was an
+            inspiring challenge.
+          </p>
         </Project>
         <Project
           roles={['Design', 'Development']}
@@ -27,20 +36,34 @@ export default function ProjectList() {
           color="#07D070"
         ></Project>
         <Project
-          roles={['Editorial Product Development', 'Prototyping']}
+          roles={['Product Owner', 'Usability Engineering']}
           title="A digital tool for moderation at ZEIT ONLINE"
         >
-          Comment sections are an essential feature of the online news media
-          ZEIT ONLINE. They allow readers to exchange ideas, engage in
-          discussions and react to stories. To help the team of professional
-          moderators to do their job and keep comment sections a safe space, a
-          new tool was needed that reduced the complexity of former workflows.
-          In this project I took the role of a product owner. A high-fidelity
-          prototype helped us to test our assumptions before actually
-          implementing the solution.
+          <p className="mb-4">
+            Comment sections allow readers of ZEIT ONLINE to exchange ideas,
+            engage in discussions and react to stories. To help the team of
+            professional moderators to do their job and keep comment sections a
+            safe space, a new tool was needed that reduced the complexity of
+            former workflows.
+          </p>
+          <p className="mb-4">
+            The goal was to completely rebuild the old interface so that
+            moderators have a delightful tool to work with. Our team aimed at
+            building a solution that allows for a seamless moderation
+            experience.
+          </p>
+          <div className="mt-4">
+            <Link
+              href="https://blog.zeit.de/dev/design-thinking/"
+              variant="underline"
+              className="inline-block text-sm"
+            >
+              View case
+            </Link>
+          </div>
         </Project>
         <Project
-          roles={['Product Design', 'Development']}
+          roles={['Service Design', 'Development']}
           title="Kulturgenerator: A solidaric art gallery in times of quarantine and isolation"
           image={kulturgeneratorPic}
           imageAlt="Screenshot from the kulturgenerator web interface"
