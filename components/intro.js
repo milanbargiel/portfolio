@@ -3,14 +3,15 @@ import Link from '../components/link'
 export default function Intro() {
   return (
     <div className="my-12 md:text-lg md:mx-8 md:mb-20 md:w-2/3 lg:w-3/5 xl:w-1/2 2xl:w-2/5">
-      <Link href="/" className="inline-block mb-24">
+      <Link href="/">
         <h1 className="font-semibold">Milan Bargiel</h1>
-        <span>Product & web developer</span>
       </Link>
-      <div className="mb-12">
-        <h2 className="font-semibold mb-4">About</h2>I am a product designer and
-        web developer living and working in Berlin, Germany. Currently, I am
-        open to work. Former editorial product developer at&nbsp;
+      <div className="text-gray-500 mb-24">Product & web developer</div>
+      <div className="mb-12 text-gray-300">
+        <h2 className="font-semibold mb-4 text-white">About</h2>I am a product
+        designer and web developer living and working in Berlin, Germany.
+        Currently, I am open to work. Former editorial product developer
+        at&nbsp;
         <Link
           variant="underline"
           href="https://www.zeit.de/autoren/B/Milan_Bargiel/indexhttps://www.zeit.de/autoren/B/Milan_Bargiel/index"
@@ -24,7 +25,7 @@ export default function Intro() {
       <div className="text-gray-500 md:basis-2/4">Email</div>
       <Link
         href="mailto:mail@milanbargiel.com"
-        className="inline-block mb-4"
+        className="inline-block text-gray-300 mb-4"
         variant="underline"
       >
         milanbargiel@pm.me
@@ -32,7 +33,7 @@ export default function Intro() {
       <div className="text-gray-500 md:basis-2/4">LinkedIn</div>
       <Link
         href="https://www.linkedin.com/in/milanbargiel"
-        className="inline-block mb-4"
+        className="inline-block text-gray-300 mb-4"
         variant="underline"
       >
         @milanbargiel

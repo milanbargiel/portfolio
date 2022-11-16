@@ -17,6 +17,7 @@ module.exports = {
           500: '#B1ADFC',
           700: '#8D89E0',
         },
+        dim: '#797673',
       },
       dropShadow: {
         apricot: '0px 20px 10px rgba(240, 224, 209, 0.4)',

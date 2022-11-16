@@ -6,7 +6,7 @@ import Link from '../components/link'
 export default function ProjectList() {
   return (
     <div>
-      <div className="mb-24 md:flex md:flex-wrap">
+      <div className="mb-24 text-black md:flex md:flex-wrap">
         <Project
           roles={['Product Owner']}
           title="A lightweight, scalable database that stores more than 10.000 comments a day"
@@ -40,11 +40,11 @@ export default function ProjectList() {
           title="A digital tool for moderation at ZEIT ONLINE"
         >
           <p className="mb-4">
-            Comment sections allow readers of ZEIT ONLINE to exchange ideas,
-            engage in discussions and react to stories. To help the team of
-            professional moderators do their job and keep comment sections a
-            safe space, a new tool was needed that reduced the complexity of
-            former workflows.
+            Comment sections are an essential feature of the online news media
+            ZEIT ONLINE. They allow readers to exchange ideas, engage in
+            discussions and react to stories. To help the team of professional
+            moderators to do their job and keep comment sections a safe space, a
+            new tool was needed that reduced the complexity of former workflows.
           </p>
           <p className="mb-4">
             The goal was to completely rebuild the application so that

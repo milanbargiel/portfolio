@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 export default function Layout({ children }) {
   return (
-    <div>
+    <div className="bg-[#1f1d25] text-white">
       <Head>
         <title>Milan Bargiel – building digital things</title>
         <meta
