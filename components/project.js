@@ -16,8 +16,7 @@ export default function Project(props) {
       }`}
       style={{ backgroundColor }}
     >
-      <ul className="text-sm mb-4 leading-normal">{roleItems}</ul>
-
+      <ul className="text-xs mb-8 leading-normal">{roleItems}</ul>
       <h3 className="mb-8 text-2xl leading-tight">{props.title}</h3>
       {props.image && (
         <Image
