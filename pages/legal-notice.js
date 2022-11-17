@@ -32,12 +32,15 @@ export default function LegalNotice() {
       <p className="mb-6">
         Third Party Inclusion
         <br />
-        This website is hosted by Github using Github Pages. The Github Global
-        Privacy Practices are available&nbsp;
-        <Link
-          href="https://docs.github.com/en/github/site-policy/global-privacy-practices"
-          variant="underline"
-        >
+        This website is hosted by the external hosting service&nbsp;
+        <Link href="https://www.netlify.com/" variant="underline">
+          Netlify
+        </Link>
+        . Netlify stores the IP addresses of site visitors in log files for no
+        more than 30 days. This data processing is necessary according to
+        Netlify for the provision and security of the web offer and its
+        improvement. Their privacy practices can be found&nbsp;
+        <Link href="https://www.netlify.com/gdpr-ccpa/" variant="underline">
           here
         </Link>
         .
