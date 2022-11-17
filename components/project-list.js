@@ -8,22 +8,23 @@ export default function ProjectList() {
     <div>
       <div className="mb-24 text-black md:flex md:flex-wrap">
         <Project
-          roles={['Product Owner']}
+          roles={['Editorial Product Development']}
           title="A lightweight, scalable database that stores more than 10.000 comments a day"
         >
           <p className="mb-4">
             In 2020, the news website ZEIT ONLINE replaced its Drupal-based
             comments database with a lightweight, flexible and scalable system
-            that stores more than 10.000 new comments each day.
+            that stores more than 10.000 new comments a day.
           </p>
           <p className="mb-4">
-            As a product owner I set up an agile development process and defined
-            the new database’s qualities in user stories.
+            As a product owner, I and my colleague Thomas Strotjohann set up an
+            agile development process and defined the new database’s qualities
+            in user stories.
           </p>
           <p className="mb-4">
             The challenge was to exchange databases during live operations.
             Working in the invisible and reconnecting a service deeply
-            intertwined with the basic functioning of the news web page was an
+            intertwined within the basic functioning of the news web page was an
             inspiring challenge.
           </p>
         </Project>
@@ -36,22 +37,22 @@ export default function ProjectList() {
           color="#07D070"
         ></Project>
         <Project
-          roles={['Product Owner', 'Usability Engineering']}
-          title="A digital tool for moderation at ZEIT ONLINE"
+          roles={['Editorial Product Development', 'Prototyping']}
+          title="Reimagining a digital tool for the moderation of comments at ZEIT ONLINE"
         >
           <p className="mb-4">
-            Comment sections are an essential feature of the online news media
-            ZEIT ONLINE. They allow readers to exchange ideas, engage in
-            discussions and react to stories. To help the team of professional
-            moderators to do their job and keep comment sections a safe space, a
-            new tool was needed that reduced the complexity of former workflows.
+            The comment sections of articles are an essential feature of the
+            online news media. They allow readers to exchange ideas, engage in
+            discussions and react to what is going on in the world. To help the
+            professional moderators to do their job and keep comment sections a
+            safe space, a new tool was needed.
           </p>
           <p className="mb-4">
-            The goal was to completely rebuild the application so that
-            moderators have a delightful tool to work with. Our team aimed at
-            building a solution that allows for a seamless moderation
-            experience. It was a fascinating project and I learned a lot about
-            agile development.
+            In this project, I took the role of a product owner together with
+            the former head of product at ZEIT ONLINE. We aimed at building a
+            tool that provides a seamless moderation experience. By testing a
+            high-fidelity prototype with moderators from an early stage, we were
+            able to give shape to the tool while actually building it.
           </p>
           <div className="mt-4">
             <Link
