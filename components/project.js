@@ -16,6 +16,7 @@ export default function Project(props) {
       }`}
       style={{ backgroundColor }}
     >
+      {/* Use absolute positioning for roles so that project headline is always at the same height */}
       <ul className="text-xs mb-8 md:leading-normal md:absolute md:top-10">
         {roleItems}
       </ul>
