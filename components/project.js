@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from '../components/image'
 
 export default function Project(props) {
   // Choose custom color for project card if specified
@@ -20,13 +20,12 @@ export default function Project(props) {
 
       <h3 className="mb-8 text-2xl leading-tight">{props.title}</h3>
       {props.image && (
-        <div className="mb-8 overflow-hidden">
-          <Image
-            className={props.imageStyles}
-            src={props.image}
-            alt={props.imageAlt}
-          />
-        </div>
+        <Image
+          src={props.image}
+          alt={props.imageAlt}
+          className={props.imageStyles}
+          href={props.imageLink ? props.imageLink : ''} // Add image link if there is one
+        ></Image>
       )}
       <div className="text-sm mb-8">{props.children}</div>
     </article>

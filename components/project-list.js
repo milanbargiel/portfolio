@@ -33,19 +33,10 @@ export default function ProjectList() {
           title="An archive of socio-ecological design patterns for architects, city developers and residents"
           image={bsePic}
           imageAlt="Screenshot of buildingsocialecology.org"
-          imageStyles="rounded-md drop-shadow-sm border border-gray-700"
+          imageStyles="rounded-md drop-shadow-sm border border-gray-700 hover:cursor-pointer"
+          imageLink="https://www.buildingsocialecology.org/"
           color="#07D070"
-        >
-          <div className="mt-8">
-            <Link
-              href="https://www.buildingsocialecology.org/"
-              variant="project-link"
-              className="inline-block"
-            >
-              Visit website
-            </Link>
-          </div>
-        </Project>
+        ></Project>
         <Project
           roles={['Editorial Product Development', 'Prototyping']}
           title="Reimagining a digital tool for the moderation of comments at ZEIT ONLINE"
@@ -60,9 +51,9 @@ export default function ProjectList() {
           <p className="mb-4">
             In this project, I took the role of a product owner together with
             the former head of product at ZEIT ONLINE. We aimed at building a
-            tool that provides a seamless moderation experience. By testing a
-            high-fidelity prototype with moderators from an early stage, we were
-            able to give shape to the tool while actually building it.
+            tool that provides a seamless moderation experience. By continous
+            user testing, we were able to give shape to the tool while actually
+            building it.
           </p>
           <div className="mt-8">
             <Link
@@ -81,17 +72,7 @@ export default function ProjectList() {
           imageAlt="Screenshot from the kulturgenerator web interface"
           imageStyles="my-4 ml-2 w-2/3 -rotate-6 rounded-md md:w-4/5 drop-shadow-sm"
           color="#FFEFE2"
-        >
-          <div className="mt-8">
-            <Link
-              href="https://www.ksta.de/kultur-medien/kulturgenerator-online-galerie-soll-kuenstlern-in-der-krise-helfen-157774"
-              variant="project-link"
-              className="inline-block"
-            >
-              Read article
-            </Link>
-          </div>
-        </Project>
+        ></Project>
       </div>
     </div>
   )
