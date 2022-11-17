@@ -60,7 +60,7 @@ LegalNotice.getLayout = function getLayout(page) {
       <div className="text-center leading-tight mb-6">
         <Link
           href="/"
-          className="font-semibold text-purple-700 hover:text-purple-500 md:text-lg"
+          className="font-semibold text-purple-700 hover:text-purple-500"
         >
           Return to <br className="md:hidden" />
           homepage
