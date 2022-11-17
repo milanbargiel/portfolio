@@ -1,4 +1,4 @@
-# Portfolio of Milan Bargiel
+# Portfolio
 
 The Portfolio and Work Archive of [Milan Bargiel](https://www.milanbargiel.com)
 
