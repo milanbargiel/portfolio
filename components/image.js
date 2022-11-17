@@ -1,10 +1,11 @@
-/* An image wrapper that creates images with link on demand */
+/* An image wrapper that creates images with a link on demand */
 
 import Link from '../components/link'
 import NextImage from 'next/image'
 import PropTypes from 'prop-types'
 
 function Image({ src, alt, className, href }) {
+  // Create image
   const image = (
     <NextImage
       src={src}
@@ -13,6 +14,7 @@ function Image({ src, alt, className, href }) {
     />
   )
 
+  // Wrap it in a Link component if there is a link
   if (href) {
     return <Link href={href}>{image}</Link>
   }
@@ -22,7 +24,7 @@ function Image({ src, alt, className, href }) {
 
 // Check required properties
 Image.propTypes = {
-  src: PropTypes.string.isRequired,
+  src: PropTypes.object.isRequired,
 }
 
 export default Image

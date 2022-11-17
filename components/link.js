@@ -35,7 +35,7 @@ function Link({ href, className, children, variant }) {
 
 // Check properties for correct variant names
 Link.propTypes = {
-  variant: PropTypes.oneOf(['underline-white', 'underline-black']),
+  variant: PropTypes.oneOf(['underline-white', 'project-link']),
 }
 
 export default Link
