@@ -71,6 +71,7 @@ export default function ProjectList() {
           image={kulturgeneratorPic}
           imageAlt="Screenshot from the kulturgenerator web interface"
           imageStyles="my-4 ml-2 w-2/3 -rotate-6 rounded-md md:w-4/5 drop-shadow-sm"
+          imageLink="https://www.ksta.de/kultur-medien/kulturgenerator-online-galerie-soll-kuenstlern-in-der-krise-helfen-157774"
           color="#FFEFE2"
         ></Project>
       </div>
