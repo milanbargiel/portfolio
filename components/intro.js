@@ -13,7 +13,7 @@ export default function Intro() {
         Currently, I am open to work. Former editorial product developer
         at&nbsp;
         <Link
-          variant="underline"
+          variant="underline-white"
           href="https://www.zeit.de/autoren/B/Milan_Bargiel/indexhttps://www.zeit.de/autoren/B/Milan_Bargiel/index"
         >
           ZEIT ONLINE
@@ -26,7 +26,7 @@ export default function Intro() {
       <Link
         href="mailto:mail@milanbargiel.com"
         className="inline-block text-gray-300 mb-4"
-        variant="underline"
+        variant="underline-white"
       >
         milanbargiel@pm.me
       </Link>
@@ -34,7 +34,7 @@ export default function Intro() {
       <Link
         href="https://www.linkedin.com/in/milanbargiel"
         className="inline-block text-gray-300 mb-4"
-        variant="underline"
+        variant="underline-white"
       >
         @milanbargiel
       </Link>

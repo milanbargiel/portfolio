@@ -19,7 +19,6 @@ export default function Project(props) {
       <ul className="text-sm mb-4 leading-normal">{roleItems}</ul>
 
       <h3 className="mb-8 text-2xl leading-tight">{props.title}</h3>
-      <div className="text-sm mb-8">{props.children}</div>
       {props.image && (
         <div className="mb-8 overflow-hidden">
           <Image
@@ -29,6 +28,7 @@ export default function Project(props) {
           />
         </div>
       )}
+      <div className="text-sm mb-8">{props.children}</div>
     </article>
   )
 }

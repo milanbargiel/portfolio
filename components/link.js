@@ -8,8 +8,11 @@ function Link({ href, className, children, variant }) {
   let customClasses = className ? className : ''
 
   switch (variant) {
-    case 'underline':
+    case 'underline-white':
       customClasses = `underline underline-offset-2 decoration-1 decoration-gray-500 hover:text-white hover:transition-all hover:decoration-gray-300 hover:duration-150 ${customClasses}`
+      break
+    case 'project-link':
+      customClasses = `underline font-semibold text-sm underline-offset-2 decoration-1 text-gray-600 decoration-gray-600 hover:text-black hover:transition-all hover:decoration-black hover:duration-150 ${customClasses}`
       break
   }
 
@@ -32,7 +35,7 @@ function Link({ href, className, children, variant }) {
 
 // Check properties for correct variant names
 Link.propTypes = {
-  variant: PropTypes.oneOf(['underline']),
+  variant: PropTypes.oneOf(['underline-white', 'underline-black']),
 }
 
 export default Link

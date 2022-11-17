@@ -18,7 +18,7 @@ export default function LegalNotice() {
       </p>
       <Link
         href="mailto:milanbargiel@pm.me"
-        variant="underline"
+        variant="underline-white"
         className="mb-6 inline-block"
       >
         milanbargiel@pm.me
@@ -33,14 +33,17 @@ export default function LegalNotice() {
         Third Party Inclusion
         <br />
         This website is hosted by the external hosting service&nbsp;
-        <Link href="https://www.netlify.com/" variant="underline">
+        <Link href="https://www.netlify.com/" variant="underline-white">
           Netlify
         </Link>
         . Netlify stores the IP addresses of site visitors in log files for no
         more than 30 days. This data processing is necessary according to
         Netlify for the provision and security of the web offer and its
         improvement. Their privacy practices can be found&nbsp;
-        <Link href="https://www.netlify.com/gdpr-ccpa/" variant="underline">
+        <Link
+          href="https://www.netlify.com/gdpr-ccpa/"
+          variant="underline-white"
+        >
           here
         </Link>
         .

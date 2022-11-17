@@ -35,7 +35,17 @@ export default function ProjectList() {
           imageAlt="Screenshot of buildingsocialecology.org"
           imageStyles="rounded-md drop-shadow-sm border border-gray-700"
           color="#07D070"
-        ></Project>
+        >
+          <div className="mt-8">
+            <Link
+              href="https://www.buildingsocialecology.org/"
+              variant="project-link"
+              className="inline-block"
+            >
+              Visit website
+            </Link>
+          </div>
+        </Project>
         <Project
           roles={['Editorial Product Development', 'Prototyping']}
           title="Reimagining a digital tool for the moderation of comments at ZEIT ONLINE"
@@ -54,11 +64,11 @@ export default function ProjectList() {
             high-fidelity prototype with moderators from an early stage, we were
             able to give shape to the tool while actually building it.
           </p>
-          <div className="mt-4">
+          <div className="mt-8">
             <Link
               href="https://blog.zeit.de/dev/design-thinking/"
-              variant="underline"
-              className="inline-block text-sm"
+              variant="project-link"
+              className="inline-block"
             >
               View case
             </Link>
@@ -71,7 +81,17 @@ export default function ProjectList() {
           imageAlt="Screenshot from the kulturgenerator web interface"
           imageStyles="my-4 ml-2 w-2/3 -rotate-6 rounded-md md:w-4/5 drop-shadow-sm"
           color="#FFEFE2"
-        ></Project>
+        >
+          <div className="mt-8">
+            <Link
+              href="https://www.ksta.de/kultur-medien/kulturgenerator-online-galerie-soll-kuenstlern-in-der-krise-helfen-157774"
+              variant="project-link"
+              className="inline-block"
+            >
+              Read article
+            </Link>
+          </div>
+        </Project>
       </div>
     </div>
   )
