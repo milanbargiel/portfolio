@@ -11,7 +11,6 @@ function Image({ src, alt, className, href }) {
       src={src}
       className={className ? className : ''}
       alt={alt ? alt : ''}
-      placeholder="blur"
     />
   )
 
