@@ -10,7 +10,7 @@ export default function Intro() {
       <div className="mb-12 text-gray-300">
         <h2 className="font-semibold mb-4 text-white">About</h2>I am a product
         designer and web developer living and working in Berlin, Germany.
-        Currently, I am open to work. Former editorial product developer
+        Former editorial product developer
         at&nbsp;
         <Link
           variant="underline-white"
