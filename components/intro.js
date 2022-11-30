@@ -6,12 +6,13 @@ export default function Intro() {
       <Link href="/">
         <h1 className="font-semibold">Milan Bargiel</h1>
       </Link>
-      <div className="text-gray-500 mb-24">Product & web developer</div>
+      <div className="text-gray-500 mb-24">
+        Product Owner & Creative Technologist
+      </div>
       <div className="mb-12 text-gray-300">
         <h2 className="font-semibold mb-4 text-white">About</h2>I am a product
-        designer and web developer living and working in Berlin, Germany.
-        Former editorial product developer
-        at&nbsp;
+        owner and creative technologist living and working in Berlin, Germany.
+        Former editorial product developer at&nbsp;
         <Link
           variant="underline-white"
           href="https://www.zeit.de/autoren/B/Milan_Bargiel/indexhttps://www.zeit.de/autoren/B/Milan_Bargiel/index"
