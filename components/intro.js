@@ -6,7 +6,7 @@ export default function Intro() {
       <Link href="/">
         <h1 className="font-semibold">Milan Bargiel</h1>
       </Link>
-      <div className="text-gray-500 mb-24">Product & web developer</div>
+      <div className="text-gray-500 mb-24">Product & Web Developer</div>
       <div className="mb-12 text-gray-300">
         <h2 className="font-semibold mb-4 text-white">About</h2>I am a product
         owner, web developer and designer living and working in Berlin, Germany.
