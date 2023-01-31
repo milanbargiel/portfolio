@@ -8,7 +8,7 @@ export default function ProjectList() {
     <div>
       <div className="mb-24 text-black md:flex md:flex-wrap">
         <Project
-          roles={['Product Owner', 'Agile Development']}
+          roles={['Product Owner']}
           title="A lightweight, scalable database that stores more than 10.000 comments a day"
         >
           <p className="mb-4">
@@ -38,7 +38,7 @@ export default function ProjectList() {
           color="#07D070"
         ></Project>
         <Project
-          roles={['Product Owner', 'Prototyping', 'User Experience']}
+          roles={['Product Owner', 'User Experience']}
           title="Reimagining a digital tool for the moderation of comments at ZEIT ONLINE"
         >
           <p className="mb-4">
@@ -66,7 +66,7 @@ export default function ProjectList() {
           </div>
         </Project>
         <Project
-          roles={['Co-Founder', 'Web Development']}
+          roles={['Co-Founder']}
           title="Kulturgenerator: A solidaric art gallery in times of quarantine and isolation"
           image={kulturgeneratorPic}
           imageAlt="Screenshot from the kulturgenerator web interface"
