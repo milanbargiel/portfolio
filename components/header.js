@@ -4,9 +4,11 @@ const Header = () => {
   return (
     <>
       <Link href="/">
-        <h1 className="font-semibold">Milan Bargiel</h1>
+        <h1 className="font-semibold md:text-lg">Milan Bargiel</h1>
       </Link>
-      <div className="text-gray-500 mb-24">Product & Web Developer</div>
+      <div className="text-gray-500 mb-24 md:text-lg">
+        Product & Web Developer
+      </div>
     </>
   )
 }

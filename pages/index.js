@@ -1,13 +1,16 @@
-import Intro from '../components/intro'
+import About from '../components/about'
 import ProjectList from '../components/project-list'
 import Layout from '../components/layout'
+import Page from '../components/page'
 import Link from 'next/link'
 
 export default function Home() {
   return (
     <div className="flex-1">
-      <Intro></Intro>
-      <ProjectList></ProjectList>
+      <Page>
+        <About />
+      </Page>
+      <ProjectList />
     </div>
   )
 }
