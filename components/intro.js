@@ -1,12 +1,10 @@
 import Link from '../components/link'
+import Header from '../components/header'
 
 export default function Intro() {
   return (
     <div className="my-12 md:text-lg md:mx-8 md:mb-20 md:mt-16 md:w-2/3 lg:w-3/5 xl:w-1/2 2xl:w-2/5">
-      <Link href="/">
-        <h1 className="font-semibold">Milan Bargiel</h1>
-      </Link>
-      <div className="text-gray-500 mb-24">Product & Web Developer</div>
+      <Header />
       <div className="mb-12 text-gray-300">
         <h2 className="font-semibold mb-4 text-white">About</h2>I am a product
         owner, web developer and designer living and working in Berlin, Germany.
