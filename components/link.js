@@ -8,8 +8,8 @@ function Link({ href, className, children, variant }) {
   let customClasses = className ? className : ''
 
   switch (variant) {
-    case 'underline-white':
-      customClasses = `underline underline-offset-2 decoration-1 decoration-gray-500 hover:text-white hover:transition-all hover:decoration-gray-300 hover:duration-150 ${customClasses}`
+    case 'underline':
+      customClasses = `underline underline-offset-3 decoration-1 decoration-gray-400 over:transition-all hover:decoration-gray-900 hover:decoration-2 hover:duration-150 ${customClasses}`
       break
     case 'project-link':
       customClasses = `underline font-semibold text-sm underline-offset-2 decoration-1 text-gray-600 decoration-gray-400 hover:text-black hover:transition-all hover:decoration-black hover:duration-150 ${customClasses}`

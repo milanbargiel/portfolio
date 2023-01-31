@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 /* The background color has to be defined on the body so that Scroll-bounce page background colour is correct */
-body {
+/* body {
   @apply bg-[#1f1d25] text-white;
-}
+} */
