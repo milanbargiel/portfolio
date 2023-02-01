@@ -17,7 +17,8 @@ export default function BuildingSocialEcology() {
       <TextColumn>
         <Header />
         <h1 className="text-3xl mb-8">
-          A living archive of socio-ecological design patterns
+          An archive of socio-ecological design patterns for sustainable
+          construction
         </h1>
         <p className="mb-4 text-gray-700 text-sm">
           Building Social Ecology showcases sustainable design patterns for

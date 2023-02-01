@@ -1,6 +1,6 @@
 import Project from '../components/project'
 import bsePic from '../public/buildingsocialecology.png'
-import kulturgeneratorPic from '../public/kulturgenerator.png'
+import kulturgeneratorPic from '../public/kulturgenerator/kulturgenerator.png'
 import Link from '../components/link'
 
 export default function ProjectList() {
@@ -71,7 +71,7 @@ export default function ProjectList() {
           image={kulturgeneratorPic}
           imageAlt="Screenshot from the kulturgenerator web interface"
           imageStyles="my-4 ml-2 w-2/3 -rotate-6 rounded-md md:w-3/5 2xl:w-4/5 drop-shadow-sm"
-          imageLink="https://www.ksta.de/kultur-medien/kulturgenerator-online-galerie-soll-kuenstlern-in-der-krise-helfen-157774"
+          imageLink="/projects/kulturgenerator"
           color="#FFEFE2"
         ></Project>
       </div>
