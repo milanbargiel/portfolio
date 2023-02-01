@@ -1,16 +1,7 @@
 import Layout from '../../components/layout'
 import Header from '../../components/header'
 import TextColumn from '../../components/text-column'
-import Row from '../../components/row'
-import Column from '../../components/column'
-import Image from '../../components/image'
-
-// Load logos
-import kulturrat from '../../public/kulturgenerator/kulturrat.svg'
-import kulturamt from '../../public/kulturgenerator/kulturamt.svg'
-import rheinergie from '../../public/kulturgenerator/rheinenergie.svg'
-import niehlerFreiheit from '../../public/kulturgenerator/niehlerfreiheit.svg'
-import wachsfabrik from '../../public/kulturgenerator/wachsfabrik.svg'
+import KulturgeneratorLogos from '../../components/kulturgenerator-logos'
 
 const Kulturgenerator = () => {
   return (
@@ -68,46 +59,7 @@ const Kulturgenerator = () => {
           The platform is a collaboration between the Cultural Council of
           Cologne, Niehler Freiheit e.V., and the art center Wachsfabrik.
         </p>
-        <div className="w-1/2 mb-24">
-          <Row className="mb-8 items-center">
-            <Column>
-              <Image
-                src={kulturrat}
-                alt="Logo of the Cultural Council Cologne"
-                className="w-12"
-              />
-            </Column>
-            <Column>
-              <Image
-                src={wachsfabrik}
-                alt="Logo of the cultural center Wachsfabrik"
-                className="w-16"
-              />
-            </Column>
-            <Column>
-              <Image
-                src={niehlerFreiheit}
-                alt="Logo of the Cultural Center Niehler Freiheit"
-                className="w-48"
-              />
-            </Column>
-          </Row>
-          <Row className="items-center w-2/3">
-            <Column>
-              <Image
-                src={kulturamt}
-                alt="Logo of the Cultural Office from Cologne"
-                className="w-20"
-              />
-            </Column>
-            <Column>
-              <Image
-                src={rheinergie}
-                alt="Logo of the Rheinenergie Foundation"
-              />
-            </Column>
-          </Row>
-        </div>
+        <KulturgeneratorLogos />
       </TextColumn>
     </Layout>
   )
