@@ -89,6 +89,7 @@ const Kulturgenerator = () => {
           src={kulturgeneratorCMS}
           alt="Screenshot from the Kulturgenerator App"
           className="w-2/3 drop-shadow-xl"
+          caption="Screenshot of the Headless-CMS Strapi"
         />
       </div>
     </Layout>
