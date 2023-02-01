@@ -1,12 +1,20 @@
+import Image from '../../components/image'
 import Header from '../../components/header'
 import TextColumn from '../../components/text-column'
 import Link from '../../components/link'
 import Layout from '../../components/layout'
 
+// Load Images
+import bsePic1 from '../../public/buildingsocialecology-1.png'
+import bsePic2 from '../../public/buildingsocialecology-2.png'
+import bsePic3 from '../../public/buildingsocialecology-3.png'
+import bsePic4 from '../../public/buildingsocialecology-4.png'
+import bsePic5 from '../../public/buildingsocialecology-5.png'
+
 export default function BuildingSocialEcology() {
   return (
     <Layout variant="light">
-      <TextColumn variant="project">
+      <TextColumn>
         <Header />
         <h1 className="text-3xl mb-8">
           A living archive of socio-ecological design patterns
@@ -38,6 +46,40 @@ export default function BuildingSocialEcology() {
           www.buildingsocialecology.org <span>↗</span>
         </Link>
       </TextColumn>
+      <div className="my-24">
+        {/* A flex grid. Flex-basis 100 tells the elements take full row width
+        Flex-1 tells the item to shrink in size if necessary */}
+        <div className="md:flex md:flex-wrap md:flex-row md:gap-16">
+          <Image
+            src={bsePic1}
+            className="basis-full object-contain md:flex-1"
+            alt="Detail view of buildingsocialecology.org"
+          />
+          <Image
+            src={bsePic2}
+            className="basis-full object-contain md:flex-1"
+            alt="Moodboard"
+          />
+        </div>
+        {/* Another flex row */}
+        <div className="mt-16 md:flex md:flex-wrap md:flex-row md:gap-16">
+          <Image
+            src={bsePic3}
+            className="basis-full object-contain md:flex-1"
+            alt="Moodboard"
+          />
+          <Image
+            src={bsePic4}
+            className="basis-full object-contain md:flex-1"
+            alt="Moodboard"
+          />
+          <Image
+            src={bsePic5}
+            className="basis-full object-contain md:flex-1"
+            alt="Moodboard"
+          />
+        </div>
+      </div>
     </Layout>
   )
 }
