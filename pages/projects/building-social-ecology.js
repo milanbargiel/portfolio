@@ -4,7 +4,7 @@ import Link from '../../components/link'
 export default function BuildingSocialEcology() {
   return (
     <>
-      <PageLayout>
+      <PageLayout variant="project">
         <h1 className="text-3xl mb-8">
           A living archive of socio-ecological design patterns
         </h1>
