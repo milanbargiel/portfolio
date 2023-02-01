@@ -33,9 +33,9 @@ export default function BuildingSocialEcology() {
         <Link
           href="https://www.buildingsocialecology.org/"
           className="text-gray-700 text-sm"
-          variant="underline-white"
+          variant="underline-dark"
         >
-          www.buildingsocialecology.org
+          www.buildingsocialecology.org <span>↗</span>
         </Link>
       </TextColumn>
     </Layout>

@@ -1,41 +1,40 @@
 /* A link wrapper that creates regular anchor tags with target _blank for external links */
-
-import PropTypes from 'prop-types'
 import NextLink from 'next/link'
 
-function Link({ href, className, children, variant }) {
-  // Create styles for the link variant
-  let customClasses = className ? className : ''
+function Link({ href, children, className, variant }) {
+  // Add classes if set in parent component
+  let classes = className ? className : ''
+
+  // Define common classes for link underlines
+  const underlineCLasses =
+    'underline underline-offset-2 decoration-1 hover:transition-all hover:duration-150'
 
   switch (variant) {
     case 'underline-white':
-      customClasses = `underline underline-offset-2 decoration-1 decoration-gray-500 hover:text-white hover:transition-all hover:decoration-gray-300 hover:duration-150 ${customClasses}`
+      classes += ` ${underlineCLasses} decoration-gray-500 hover:text-white hover:decoration-white`
       break
-    case 'project-link':
-      customClasses = `underline font-semibold text-sm underline-offset-2 decoration-1 text-gray-600 decoration-gray-400 hover:text-black hover:transition-all hover:decoration-black hover:duration-150 ${customClasses}`
+    case 'underline-dark':
+      classes += ` ${underlineCLasses} decoration-gray-400 hover:text-black hover:decoration-black`
       break
   }
 
+  // If the link is external render a normal anchor tag
+  // Otherwise use the next-link component
   const externalLink = href.includes('https')
 
   if (externalLink) {
     return (
-      <a className={customClasses} href={href} target="_blank" rel="noreferrer">
+      <a className={classes} href={href} target="_blank" rel="noreferrer">
         {children}
       </a>
     )
   } else {
     return (
-      <NextLink href={href} className={customClasses}>
+      <NextLink href={href} className={classes}>
         {children}
       </NextLink>
     )
   }
-}
-
-// Check properties for correct variant names
-Link.propTypes = {
-  variant: PropTypes.oneOf(['underline-white', 'project-link']),
 }
 
 export default Link

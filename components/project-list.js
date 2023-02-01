@@ -58,8 +58,8 @@ export default function ProjectList() {
           <div className="mt-8">
             <Link
               href="https://blog.zeit.de/dev/design-thinking/"
-              variant="project-link"
-              className="inline-block"
+              variant="underline-dark"
+              className="inline-block font-semibold text-sm text-gray-700"
             >
               View case
             </Link>
