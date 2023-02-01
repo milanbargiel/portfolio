@@ -1,5 +1,4 @@
 import Link from '../components/link'
-import Layout from '../components/layout'
 
 export default function LegalNotice() {
   return (
@@ -49,23 +48,5 @@ export default function LegalNotice() {
         .
       </p>
     </div>
-  )
-}
-
-// Render layout per-page
-LegalNotice.getLayout = function getLayout(page) {
-  return (
-    <Layout>
-      {page}
-      <div className="text-center leading-tight mb-6">
-        <Link
-          href="/"
-          className="font-semibold text-purple-700 hover:text-purple-500"
-        >
-          Return to <br className="md:hidden" />
-          homepage
-        </Link>
-      </div>
-    </Layout>
   )
 }

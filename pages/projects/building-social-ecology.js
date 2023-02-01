@@ -1,5 +1,5 @@
-import Page from '../components/page'
-import Layout from '../components/layout'
+import Page from '../../components/page'
+import Layout from '../../components/layout'
 
 export default function BuildingSocialEcology() {
   return (
