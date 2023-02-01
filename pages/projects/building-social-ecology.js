@@ -1,10 +1,10 @@
-import PageLayout from '../../components/page-layout'
+import TextColumn from '../../components/text-column'
 import Link from '../../components/link'
 
 export default function BuildingSocialEcology() {
   return (
     <>
-      <PageLayout variant="project">
+      <TextColumn variant="project">
         <h1 className="text-3xl mb-8">
           A living archive of socio-ecological design patterns
         </h1>
@@ -34,7 +34,7 @@ export default function BuildingSocialEcology() {
         >
           www.buildingsocialecology.org
         </Link>
-      </PageLayout>
+      </TextColumn>
     </>
   )
 }

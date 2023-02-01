@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Header from './header'
 
 export default function Layout({ children }) {
   return (
@@ -22,6 +23,7 @@ export default function Layout({ children }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="px-4 container mx-auto min-h-screen flex flex-col md:px-8">
+        <Header />
         {children}
       </main>
     </div>

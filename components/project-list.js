@@ -6,7 +6,7 @@ import Link from '../components/link'
 export default function ProjectList() {
   return (
     <div>
-      <div className="mb-24 text-black md:flex md:flex-wrap">
+      <div className="my-24 text-black md:flex md:flex-wrap">
         <Project
           roles={['Product Owner']}
           title="A lightweight, scalable database that stores more than 10.000 comments a day"
