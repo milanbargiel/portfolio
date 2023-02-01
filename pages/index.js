@@ -1,14 +1,14 @@
 import About from '../components/about'
 import ProjectList from '../components/project-list'
-import Page from '../components/page'
+import PageLayout from '../components/page-layout'
 
 export default function Home() {
   return (
-    <div className="flex-1">
-      <Page>
+    <>
+      <PageLayout>
         <About />
-      </Page>
+      </PageLayout>
       <ProjectList />
-    </div>
+    </>
   )
 }
