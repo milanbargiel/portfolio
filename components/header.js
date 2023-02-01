@@ -2,7 +2,7 @@ import Link from '../components/link'
 
 const Header = () => {
   return (
-    <div className="my-12 md:mx-8 md:mt-16 ">
+    <div className="my-12 md:mt-16 md:mb-24">
       <Link href="/">
         <h1 className="font-semibold md:text-lg">Milan Bargiel</h1>
       </Link>

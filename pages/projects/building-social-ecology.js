@@ -1,3 +1,4 @@
+import Header from '../../components/header'
 import TextColumn from '../../components/text-column'
 import Link from '../../components/link'
 
@@ -5,6 +6,7 @@ export default function BuildingSocialEcology() {
   return (
     <>
       <TextColumn variant="project">
+        <Header />
         <h1 className="text-3xl mb-8">
           A living archive of socio-ecological design patterns
         </h1>
