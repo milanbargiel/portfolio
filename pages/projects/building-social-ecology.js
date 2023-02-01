@@ -50,34 +50,28 @@ export default function BuildingSocialEcology() {
         {/* A flex grid. Flex-basis 100 tells the elements take full row width
         Flex-1 tells the item to shrink in size if necessary */}
         <div className="md:flex md:flex-wrap md:flex-row md:gap-16">
-          <Image
-            src={bsePic1}
-            className="basis-full object-contain md:flex-1"
-            alt="Detail view of buildingsocialecology.org"
-          />
-          <Image
-            src={bsePic2}
-            className="basis-full object-contain md:flex-1"
-            alt="Moodboard"
-          />
+          <div className="basis-full md:flex-1">
+            <Image
+              src={bsePic1}
+              className="drop-shadow-xl"
+              alt="Detail view of buildingsocialecology.org"
+            />
+          </div>
+          <div className="basis-full md:flex-1">
+            <Image src={bsePic2} alt="Moodboard" />
+          </div>
         </div>
         {/* Another flex row */}
         <div className="mt-16 md:flex md:flex-wrap md:flex-row md:gap-16">
-          <Image
-            src={bsePic3}
-            className="basis-full object-contain md:flex-1"
-            alt="Moodboard"
-          />
-          <Image
-            src={bsePic4}
-            className="basis-full object-contain md:flex-1"
-            alt="Moodboard"
-          />
-          <Image
-            src={bsePic5}
-            className="basis-full object-contain md:flex-1"
-            alt="Moodboard"
-          />
+          <div className="basis-full md:flex-1">
+            <Image src={bsePic3} className="drop-shadow-xl" alt="Moodboard" />
+          </div>
+          <div className="basis-full md:flex-1">
+            <Image src={bsePic4} className="drop-shadow-xl" alt="Moodboard" />
+          </div>
+          <div className="basis-full md:flex-1">
+            <Image src={bsePic5} className="drop-shadow-xl" alt="Moodboard" />
+          </div>
         </div>
       </div>
     </Layout>
