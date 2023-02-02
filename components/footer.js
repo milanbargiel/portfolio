@@ -25,7 +25,7 @@ const Footer = () => {
           (go back)
         </Link>
       </div>
-      <div className="text-xs text-gray-600 mt-4 mb-2">
+      <div className="text-center text-xs text-gray-600 mt-16 mb-2">
         © Milan Bargiel 2023 | 
         <Link href="/legal-notice" className="hover:text-black">
           Imprint & Privacy

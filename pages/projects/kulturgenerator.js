@@ -3,6 +3,7 @@ import Header from '../../components/header'
 import TextColumn from '../../components/text-column'
 import KulturgeneratorLogos from '../../components/kulturgenerator-logos'
 import Image from '../../components/image'
+import Footer from '../../components/footer'
 
 // Load images
 import kulturgeneratorScreen from '../../public/kulturgenerator/kulturgenerator-screen.png'
@@ -92,6 +93,7 @@ const Kulturgenerator = () => {
           caption="Screenshot of the Headless-CMS Strapi"
         />
       </div>
+      <Footer />
     </Layout>
   )
 }
