@@ -19,7 +19,7 @@ export default function About() {
       <h2 className="font-semibold mb-4">Contact</h2>
       <div className="text-gray-500 md:basis-2/4">Email</div>
       <Link
-        href="mailto:mail@milanbargiel.com"
+        href="mailto:milanbargiel@pm.me"
         className="inline-block text-gray-300 mb-4"
         variant="underline-white"
       >
