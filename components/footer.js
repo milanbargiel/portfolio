@@ -40,7 +40,7 @@ const Footer = ({ variant }) => {
           </Link>
         )}
       </div>
-      <div className="text-center text-xs text-gray-500 mt-8 mb-2">
+      <div className="text-center text-xs text-gray-500 mt-10 mb-1">
         <Link href="/legal-notice">Imprint & Privacy</Link>
       </div>
     </>

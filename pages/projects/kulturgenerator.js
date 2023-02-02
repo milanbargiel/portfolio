@@ -93,7 +93,7 @@ const Kulturgenerator = () => {
           caption="Screenshot of the Headless-CMS Strapi"
         />
       </div>
-      <Footer />
+      <Footer variant="project" />
     </Layout>
   )
 }

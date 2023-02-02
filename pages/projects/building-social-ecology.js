@@ -76,7 +76,7 @@ export default function BuildingSocialEcology() {
           </div>
         </div>
       </div>
-      <Footer />
+      <Footer variant="project" />
     </Layout>
   )
 }
