@@ -3,6 +3,7 @@ import Header from '../components/header'
 import ProjectList from '../components/project-list'
 import TextColumn from '../components/text-column'
 import Layout from '../components/layout'
+import Footer from '../components/footer'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <About />
       </TextColumn>
       <ProjectList />
+      <Footer variant="home" />
     </Layout>
   )
 }

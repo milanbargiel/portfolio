@@ -1,6 +1,18 @@
 import Link from './link'
 
-const Footer = () => {
+const Footer = ({ variant }) => {
+  let showBackLink, underlineVariant
+
+  switch (variant) {
+    case 'home':
+      underlineVariant = 'underline-white'
+      break
+    case 'project':
+      showBackLink = true
+      underlineVariant = 'underline-dark'
+      break
+  }
+
   return (
     <>
       <div className="text-center w-80 mx-auto">
@@ -11,25 +23,25 @@ const Footer = () => {
           Let’s work together! Get in touch by{' '}
           <Link
             href="https://www.linkedin.com/in/milanbargiel"
-            variant="underline-dark"
+            variant={underlineVariant}
           >
             LinkedIn
           </Link>{' '}
           or by{' '}
-          <Link href="mailto:milanbargiel@pm.me" variant="underline-dark">
+          <Link href="mailto:milanbargiel@pm.me" variant={underlineVariant}>
             E-Mail
           </Link>
           .
         </div>
-        <Link href="/" className="text-[#0006F6]">
-          (go back)
-        </Link>
+        {/* Only show backlink for the project variant */}
+        {showBackLink && (
+          <Link href="/" className="text-[#0006F6]">
+            (go back)
+          </Link>
+        )}
       </div>
-      <div className="text-center text-xs text-gray-600 mt-16 mb-2">
-        © Milan Bargiel 2023 | 
-        <Link href="/legal-notice" className="hover:text-black">
-          Imprint & Privacy
-        </Link>
+      <div className="text-center text-xs text-gray-500 mt-8 mb-2">
+        <Link href="/legal-notice">Imprint & Privacy</Link>
       </div>
     </>
   )
