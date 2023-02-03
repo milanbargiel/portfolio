@@ -8,7 +8,7 @@ export default function ProjectList() {
     <div>
       <div className="mb-24 text-black md:flex md:flex-wrap">
         <Project
-          roles={['Editorial Product Development']}
+          roles={['Product Owner', 'Agile Methods']}
           title="A lightweight, scalable database that stores more than 10.000 comments a day"
         >
           <p className="mb-4">
@@ -29,7 +29,7 @@ export default function ProjectList() {
           </p>
         </Project>
         <Project
-          roles={['Design', 'Development']}
+          roles={['Interface Design', 'Development']}
           title="An archive of socio-ecological design patterns for architects, city developers and residents"
           image={bsePic}
           imageAlt="Screenshot of buildingsocialecology.org"
@@ -38,7 +38,7 @@ export default function ProjectList() {
           color="#07D070"
         ></Project>
         <Project
-          roles={['Editorial Product Development', 'Prototyping']}
+          roles={['Product Owner', 'User Experience']}
           title="Reimagining a digital tool for the moderation of comments at ZEIT ONLINE"
         >
           <p className="mb-4">
@@ -66,7 +66,7 @@ export default function ProjectList() {
           </div>
         </Project>
         <Project
-          roles={['Service Design', 'Development']}
+          roles={['Co-Founder']}
           title="Kulturgenerator: A solidaric art gallery in times of quarantine and isolation"
           image={kulturgeneratorPic}
           imageAlt="Screenshot from the kulturgenerator web interface"

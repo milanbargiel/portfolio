@@ -10,7 +10,7 @@ export default function Intro() {
       <div className="mb-12 text-gray-300">
         <h2 className="font-semibold mb-4 text-white">About</h2>I am a product
         owner, web developer and designer living and working in Berlin, Germany.
-        Former editorial product developer at&nbsp;
+        Former editorial product owner at&nbsp;
         <Link
           variant="underline-white"
           href="https://www.zeit.de/autoren/B/Milan_Bargiel/indexhttps://www.zeit.de/autoren/B/Milan_Bargiel/index"
