@@ -7,7 +7,7 @@ export default function LegalNotice() {
       <p className="mb-6">
         Milan Bargiel
         <br />
-        Product & web developer
+        Product & Web Developer
       </p>
       <p className="mb-6">
         Hauptstraße 36
