@@ -30,9 +30,10 @@ export default function ProjectList() {
           </p>
           <p className="mb-4">
             In this project, I took the role of a product owner together with
-            the former head of product at ZEIT ONLINE. By conducting workshops
-            with moderators, prototyping and continuous user testing, we were
-            able to give shape to the tool while actually building it.
+            the former head of product at ZEIT ONLINE Michael Schultheiss. By
+            conducting workshops with moderators, prototyping and continuous
+            user testing, we were able to give shape to the tool while actually
+            building it.
           </p>
           <div className="mt-8">
             <Link
@@ -65,10 +66,10 @@ export default function ProjectList() {
           <p className="mb-4">
             As a product owner, I and my colleague Thomas Strotjohann set up an
             agile development process and defined the database’s qualities in
-            user stories.
+            user stories. The challenge was to exchange databases during live
+            operations.
           </p>
           <p className="mb-4">
-            The challenge was to exchange databases during live operations.
             Working in the invisible and reconnecting a service deeply
             intertwined with the basic functioning of the news web page was an
             inspiring challenge.
