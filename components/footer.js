@@ -1,33 +1,54 @@
 import Link from './link'
 
 const Footer = ({ variant }) => {
-  let showBackLink, legalLinkClasses
+  let showBackLink, showLegalLink, showCopyright
 
   switch (variant) {
     case 'home':
-      legalLinkClasses = 'font-semibold text-purple-700 hover:text-purple-500'
+      showLegalLink = true
       break
     case 'project':
-      legalLinkClasses =
-        'text-xs font-semibold text-gray-700 hover:text-gray-500'
       showBackLink = true
+      showCopyright = true
+      showLegalLink = true
+      break
+    case 'legal':
+      showBackLink = true
+      showCopyright = true
       break
   }
 
   return (
-    <div className="text-center w-80 mx-auto mb-6">
+    <div className="text-center w-80 mx-auto mb-4">
       {/* Only show backlink for the project variant */}
       {showBackLink && (
-        <div className="mb-6 font-semibold leading-tight">
-          <Link href="/" className="text-[#0006F6]">
-            (go back)
+        <div className="mb-8 font-semibold leading-tight">
+          <Link href="/" className="text-purple-700 hover:text-purple-500">
+            (Go back)
           </Link>
         </div>
       )}
-      <Link className={legalLinkClasses} href="/legal-notice">
-        Legal notice &amp;
-        <br class="md:hidden" /> data privacy
-      </Link>
+      {variant === 'home' && (
+        <Link
+          className="font-semibold text-purple-700 hover:text-purple-500 leading-none"
+          href="/legal-notice"
+        >
+          Legal notice & data privacy
+        </Link>
+      )}
+      {variant === 'legal' && (
+        <div className="text-xs font-semibold text-gray-600 leading-none">
+          © 2023
+        </div>
+      )}
+      {variant === 'project' && (
+        <div className="text-xs font-semibold text-gray-600 leading-none">
+          © 2023 |
+          <Link className="hover:text-gray-500" href="/legal-notice">
+             Legal notice
+          </Link>{' '}
+        </div>
+      )}
     </div>
   )
 }

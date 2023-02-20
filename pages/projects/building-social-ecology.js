@@ -13,7 +13,7 @@ import bsePic4 from '../../public/buildingsocialecology-4.png'
 import bsePic5 from '../../public/buildingsocialecology-5.png'
 
 export async function getStaticProps() {
-  return { props: { isDark: false } }
+  return { props: { isDark: true } }
 }
 
 export default function BuildingSocialEcology() {
@@ -21,33 +21,34 @@ export default function BuildingSocialEcology() {
     <Layout>
       <TextColumn>
         <Header />
-        <h1 className="text-4xl mb-8">
-          An archive of socio-ecological design patterns for sustainable
+        <h1 className="text-5xl mb-8">
+          An archive of socio-ecological design patterns for a sustainable
           construction
         </h1>
-        <p className="mb-4 text-gray-900">
-          Building Social Ecology showcases sustainable design patterns for
-          architects, residents and city developers in Europe.
+        <p className="mb-4 text-gray-300">
+          Building Social Ecology is a web page that showcases sustainable
+          design patterns for architects, residents and city developers in
+          Europe.
         </p>
-        <p className="mb-4 text-gray-900">
+        <p className="mb-4 text-gray-300">
           In this DBU-funded (Deutsche Bundesstiftung Umwelt) research project I
           helped a team from the University of Applied Sciences in Potsdam and a
           cultural center in Bratislava with designing the projects website. We
           worked together on on a new platform where they can publish and
           archive research more easily.
         </p>
-        <p className="mb-4 text-gray-900">
+        <p className="mb-4 text-gray-300">
           My process included conducting workshops with the project partners,
           collecting visual inspiration in a moodboard, building wireframes and
           designing the interface of the application in Figma.
         </p>
-        <p className="mb-4 text-gray-900">
+        <p className="mb-4 text-gray-300">
           For the implementation I developed a custom theme in WordPress.
         </p>
         <Link
           href="https://www.buildingsocialecology.org/"
-          className="text-gray-900"
-          variant="underline-dark"
+          className="text-gray-300"
+          variant="underline-white"
         >
           www.buildingsocialecology.org <span>↗</span>
         </Link>
@@ -56,37 +57,37 @@ export default function BuildingSocialEcology() {
         {/* A flex grid. Flex-basis 100 tells the elements take full row width
         Flex-1 tells the item to shrink in size if necessary */}
         <div className="md:flex md:flex-wrap md:flex-row md:gap-16">
-          <div className="basis-full md:flex-1">
+          <div className="basis-full mb-8 md:mb-0 md:flex-1">
             <Image
               src={bsePic1}
-              className="drop-shadow-sm border border-gray-300 rounded-lg"
+              className="drop-shadow-sm border border-black rounded-lg"
               alt="Detail view of buildingsocialecology.org"
             />
           </div>
-          <div className="basis-full md:flex-1">
-            <Image src={bsePic2} alt="Moodboard" />
+          <div className="basis-full mb-8 md:mb-0 md:flex-1">
+            <Image src={bsePic2} alt="Moodboard" className="hidden md:block" />
           </div>
         </div>
         {/* Another flex row */}
-        <div className="mt-16 md:flex md:flex-wrap md:flex-row md:gap-16">
-          <div className="basis-full md:flex-1">
+        <div className="md:mt-16 md:flex md:flex-wrap md:flex-row md:gap-16">
+          <div className="basis-full mb-8 md:mb-0 md:flex-1">
             <Image
               src={bsePic3}
-              className="drop-shadow-sm border border-gray-300 rounded-lg"
+              className="drop-shadow-sm border border-black rounded-lg"
               alt="Moodboard"
             />
           </div>
-          <div className="basis-full md:flex-1">
+          <div className="basis-full mb-8 md:mb-0 md:flex-1">
             <Image
               src={bsePic4}
-              className="drop-shadow-sm border border-gray-300 rounded-lg"
+              className="drop-shadow-sm border border-black rounded-lg"
               alt="Moodboard"
             />
           </div>
-          <div className="basis-full md:flex-1">
+          <div className="basis-full mb-8 md:mb-0 md:flex-1">
             <Image
               src={bsePic5}
-              className="drop-shadow-sm border border-gray-300 rounded-lg"
+              className="drop-shadow-sm border border-black rounded-lg"
               alt="Moodboard"
             />
           </div>

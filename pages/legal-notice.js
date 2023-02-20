@@ -1,5 +1,6 @@
 import Link from '../components/link'
 import Layout from '../components/layout'
+import Footer from '../components/footer'
 
 export async function getStaticProps() {
   return { props: { isDark: true } }
@@ -55,15 +56,7 @@ export default function LegalNotice() {
           .
         </p>
       </div>
-      <div className="text-center leading-tight mb-6">
-        <Link
-          className="font-semibold text-purple-700 hover:text-purple-500"
-          href="/"
-        >
-          Return to <br class="md:hidden" />
-          homepage
-        </Link>
-      </div>
+      <Footer variant="legal" />
     </Layout>
   )
 }
