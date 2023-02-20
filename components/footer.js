@@ -8,7 +8,8 @@ const Footer = ({ variant }) => {
       legalLinkClasses = 'font-semibold text-purple-700 hover:text-purple-500'
       break
     case 'project':
-      legalLinkClasses = 'text-xs text-gray-700 hover:text-gray-500'
+      legalLinkClasses =
+        'text-xs font-semibold text-gray-700 hover:text-gray-500'
       showBackLink = true
       break
   }

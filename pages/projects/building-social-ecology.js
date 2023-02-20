@@ -18,35 +18,35 @@ export async function getStaticProps() {
 
 export default function BuildingSocialEcology() {
   return (
-    <Layout variant="light">
+    <Layout>
       <TextColumn>
         <Header />
         <h1 className="text-4xl mb-8">
           An archive of socio-ecological design patterns for sustainable
           construction
         </h1>
-        <p className="mb-4 text-gray-700">
+        <p className="mb-4 text-gray-900">
           Building Social Ecology showcases sustainable design patterns for
           architects, residents and city developers in Europe.
         </p>
-        <p className="mb-4 text-gray-700">
+        <p className="mb-4 text-gray-900">
           In this DBU-funded (Deutsche Bundesstiftung Umwelt) research project I
           helped a team from the University of Applied Sciences in Potsdam and a
           cultural center in Bratislava with designing the projects website. We
           worked together on on a new platform where they can publish and
           archive research more easily.
         </p>
-        <p className="mb-4 text-gray-700">
+        <p className="mb-4 text-gray-900">
           My process included conducting workshops with the project partners,
           collecting visual inspiration in a moodboard, building wireframes and
           designing the interface of the application in Figma.
         </p>
-        <p className="mb-4 text-gray-700">
+        <p className="mb-4 text-gray-900">
           For the implementation I developed a custom theme in WordPress.
         </p>
         <Link
           href="https://www.buildingsocialecology.org/"
-          className="text-gray-700"
+          className="text-gray-900"
           variant="underline-dark"
         >
           www.buildingsocialecology.org <span>↗</span>
@@ -59,7 +59,7 @@ export default function BuildingSocialEcology() {
           <div className="basis-full md:flex-1">
             <Image
               src={bsePic1}
-              className="drop-shadow-xl"
+              className="drop-shadow-sm border border-gray-300 rounded-lg"
               alt="Detail view of buildingsocialecology.org"
             />
           </div>
@@ -70,13 +70,25 @@ export default function BuildingSocialEcology() {
         {/* Another flex row */}
         <div className="mt-16 md:flex md:flex-wrap md:flex-row md:gap-16">
           <div className="basis-full md:flex-1">
-            <Image src={bsePic3} className="drop-shadow-xl" alt="Moodboard" />
+            <Image
+              src={bsePic3}
+              className="drop-shadow-sm border border-gray-300 rounded-lg"
+              alt="Moodboard"
+            />
           </div>
           <div className="basis-full md:flex-1">
-            <Image src={bsePic4} className="drop-shadow-xl" alt="Moodboard" />
+            <Image
+              src={bsePic4}
+              className="drop-shadow-sm border border-gray-300 rounded-lg"
+              alt="Moodboard"
+            />
           </div>
           <div className="basis-full md:flex-1">
-            <Image src={bsePic5} className="drop-shadow-xl" alt="Moodboard" />
+            <Image
+              src={bsePic5}
+              className="drop-shadow-sm border border-gray-300 rounded-lg"
+              alt="Moodboard"
+            />
           </div>
         </div>
       </div>
