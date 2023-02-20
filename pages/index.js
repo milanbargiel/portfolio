@@ -5,6 +5,10 @@ import TextColumn from '../components/text-column'
 import Layout from '../components/layout'
 import Footer from '../components/footer'
 
+export async function getStaticProps() {
+  return { props: { isDark: true } }
+}
+
 export default function Home() {
   return (
     <Layout variant="dark">

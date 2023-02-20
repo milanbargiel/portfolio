@@ -10,9 +10,13 @@ import kulturgeneratorScreen from '../../public/kulturgenerator/kulturgenerator-
 import kulturgeneratorPoster from '../../public/kulturgenerator/kulturgenerator-cologne-street.jpg'
 import kulturgeneratorCMS from '../../public/kulturgenerator/kulturgenerator-cms.png'
 
+export async function getStaticProps() {
+  return { props: { isDark: false } }
+}
+
 const Kulturgenerator = () => {
   return (
-    <Layout variant="light">
+    <Layout>
       <TextColumn>
         <Header />
         <h1 className="text-4xl mb-12">

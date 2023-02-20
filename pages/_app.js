@@ -1,7 +1,11 @@
 import '../styles/globals.css'
 import Head from 'next/head'
+import React, { useEffect } from 'react'
 
 export default function MyApp({ Component, pageProps }) {
+  useEffect(() => {
+    document.body.className = pageProps.isDark ? 'dark-mode' : 'light-mode'
+  })
   return (
     <>
       <Head>

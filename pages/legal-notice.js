@@ -1,9 +1,13 @@
 import Link from '../components/link'
 import Layout from '../components/layout'
 
+export async function getStaticProps() {
+  return { props: { isDark: true } }
+}
+
 export default function LegalNotice() {
   return (
-    <Layout variant="dark">
+    <Layout>
       <div className="py-12 px-4 text-lg font-semibold text-gray-200 leading-snug container mx-auto max-w-2xl text-center flex-1 md:py-18 2xl:py-24 md:text-xl">
         <p className="mb-6">
           Milan Bargiel

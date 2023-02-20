@@ -12,6 +12,10 @@ import bsePic3 from '../../public/buildingsocialecology-3.png'
 import bsePic4 from '../../public/buildingsocialecology-4.png'
 import bsePic5 from '../../public/buildingsocialecology-5.png'
 
+export async function getStaticProps() {
+  return { props: { isDark: false } }
+}
+
 export default function BuildingSocialEcology() {
   return (
     <Layout variant="light">
