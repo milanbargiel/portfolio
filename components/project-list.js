@@ -1,22 +1,19 @@
 import Project from '../components/project'
 import bsePic from '../public/buildingsocialecology.png'
-import kulturgeneratorPic from '../public/kulturgenerator.png'
+import kulturgeneratorPic from '../public/kulturgenerator/kulturgenerator.png'
 import Link from '../components/link'
 
 export default function ProjectList() {
   return (
     <div>
-      <div className="mb-24 text-black md:flex md:flex-wrap">
+      <div className="my-24 text-black md:flex md:flex-wrap">
         <Project
           roles={['Product Owner', 'User Experience']}
           title="Reimagining a digital tool for the moderation of comments at ZEIT ONLINE"
         >
           <p className="mb-4">
             Comment sections are an essential feature of online news media{' '}
-            <Link
-              href="https://www.zeit.de/"
-              className="inline underline underline-offset-1"
-            >
+            <Link href="https://www.zeit.de/" variant="underline-dark">
               www.zeit.de
             </Link>
             . They allow people to exchange ideas, engage in discussions and
@@ -38,15 +35,15 @@ export default function ProjectList() {
           <div className="mt-8">
             <Link
               href="https://blog.zeit.de/dev/design-thinking/"
-              variant="project-link"
-              className="inline-block"
+              variant="underline-dark"
+              className="font-semibold"
             >
               View case
             </Link>
           </div>
         </Project>
         <Project
-          roles={['Interface Design', 'Development']}
+          roles={['Interface Design', 'Web Development']}
           title="An archive of socio-ecological design patterns for architects, city developers and residents"
           image={bsePic}
           imageAlt="Screenshot of buildingsocialecology.org"
@@ -55,7 +52,7 @@ export default function ProjectList() {
           color="#07D070"
         ></Project>
         <Project
-          roles={['Product Owner', 'API Development']}
+          roles={['Product Owner', 'Technical Project Management']}
           title="A lightweight, scalable database that stores more than 10.000 comments a day"
         >
           <p className="mb-4">
@@ -75,14 +72,13 @@ export default function ProjectList() {
             inspiring challenge.
           </p>
         </Project>
-
         <Project
           roles={['Co-Founder']}
           title="Kulturgenerator: A solidaric art gallery in times of quarantine and isolation"
           image={kulturgeneratorPic}
           imageAlt="Screenshot from the kulturgenerator web interface"
           imageStyles="my-4 ml-2 w-2/3 -rotate-6 rounded-md md:w-3/5 2xl:w-4/5 drop-shadow-sm"
-          imageLink="https://www.ksta.de/kultur-medien/kulturgenerator-online-galerie-soll-kuenstlern-in-der-krise-helfen-157774"
+          imageLink="/projects/kulturgenerator"
           color="#FFEFE2"
         ></Project>
       </div>

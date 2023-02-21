@@ -4,15 +4,25 @@ import Link from '../components/link'
 import NextImage from 'next/image'
 import PropTypes from 'prop-types'
 
-function Image({ src, alt, className, href }) {
+function Image({ src, alt, className, href, caption }) {
   // Create image
-  const image = (
+  let image = (
     <NextImage
       src={src}
       className={className ? className : ''}
       alt={alt ? alt : ''}
     />
   )
+
+  // Add caption if it exists
+  if (caption) {
+    image = (
+      <>
+        {image}
+        <div className="text-xs mt-1 leading-snug">{caption}</div>
+      </>
+    )
+  }
 
   // Wrap it in a Link component if there is a link
   if (href) {
