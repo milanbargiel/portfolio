@@ -13,7 +13,7 @@ import bsePic4 from '../../public/buildingsocialecology-4.png'
 import bsePic5 from '../../public/buildingsocialecology-5.png'
 
 export async function getStaticProps() {
-  return { props: { isDark: true } }
+  return { props: { isDark: false } }
 }
 
 export default function BuildingSocialEcology() {
@@ -21,27 +21,14 @@ export default function BuildingSocialEcology() {
     <Layout>
       <TextColumn>
         <Header />
-        <h1 className="text-5xl mb-8">Building Social Ecology</h1>
-        <p className="mb-4 text-gray-300">
-          The web page showcases sustainable design patterns for architects,
-          residents and city developers in Europe.
-        </p>
-        <p className="mb-4 text-gray-300">
-          In this project I helped a team of researchers from the University of
-          Applied Sciences in Potsdam and Nova Cvernovka, a cultural center in
-          Bratislava, with designing the projects website. We worked together on
-          on a new platform where they can publish and archive research more
-          easily.
-        </p>
-        <p className="mb-4 text-gray-300">
-          My process included conducting workshops with the project partners,
-          collecting visual inspiration, building wireframes and designing the
-          interface of the application in Figma.
-        </p>
+        <h1 className="text-5xl mb-8">
+          An archive of socio-ecological design patterns for architects, city
+          developers and residents
+        </h1>
         <Link
           href="https://www.buildingsocialecology.org/"
-          className="text-gray-300"
-          variant="underline-white"
+          className="text-gray-900"
+          variant="underline-dark"
         >
           www.buildingsocialecology.org <span>↗</span>
         </Link>

@@ -20,9 +20,7 @@ const Kulturgenerator = () => {
     <Layout>
       <TextColumn>
         <Header />
-        <h1 className="text-4xl mb-12">
-          Blueprint for a solidaric online art gallery{' '}
-        </h1>
+        <h1 className="text-4xl mb-12">A solidaric online art gallery </h1>
       </TextColumn>
       <div className="mb-16 md:flex md:flex-wrap md:flex-row md:gap-16">
         <div className="basis-1/4">
@@ -44,19 +42,18 @@ const Kulturgenerator = () => {
         <p className="mb-4 text-gray-700">
           The <i>kulturgenerator</i> is a generative redistribution machine, an
           experiment, and a online shop that existed during the first year of
-          the COVID pandemic from 2020 - 2021. It aimed at increasing the
-          visibility of the cultural scene in{' '}
+          the COVID pandemic. It aimed at increasing the visibility of the
+          cultural scene in times of quarantine by providing artists with a{' '}
           <Link
             href="https://www.ksta.de/kultur-medien/kulturgenerator-online-galerie-soll-kuenstlern-in-der-krise-helfen-157774"
             variant="underline-dark"
           >
-            times of quarantine <span>↗</span>
+            digital tool <span>↗</span>
           </Link>{' '}
-          and providing artists with a digital tool to generate income on their
-          own.
+          to generate income on their own
         </p>
         <p className="mb-4 text-gray-700">
-          Together with friends and partners from the cultural scene in Cologne
+          Together with friends and partners from the cultural scene of Cologne
           I co-founded the digital gallery. I contributed to the design as well
           as the web development of the application.
         </p>
@@ -64,8 +61,7 @@ const Kulturgenerator = () => {
           The basic functioning is simple. Artists sell their work in a web
           shop. They can decide if they want to contribute 50 or 100 percent of
           their revenue to a solidaric &quot;money pool&quot; that at the end of
-          a round is distributed evenly amongst all participants. This principle
-          allowed more established artists to support newcomers.
+          a round is distributed evenly amongst all participants.
         </p>
         <p className="mb-4 text-gray-700">
           In two rounds we received 291 artworks and experiences from diverse
