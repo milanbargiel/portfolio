@@ -24,7 +24,7 @@ const Footer = ({ variant }) => {
       {showBackLink && (
         <div className="mb-8 font-semibold leading-tight">
           <Link href="/" className="text-purple-700 hover:text-purple-500">
-            (Go back)
+            (Return to homepage)
           </Link>
         </div>
       )}

@@ -48,7 +48,7 @@ export default function ProjectList() {
           image={bsePic}
           imageAlt="Screenshot of buildingsocialecology.org"
           imageStyles="rounded-md drop-shadow-sm border border-gray-700 hover:cursor-pointer"
-          imageLink="/projects/building-social-ecology"
+          imageLink="https://www.buildingsocialecology.org/"
           color="#07D070"
         ></Project>
         <Project

@@ -20,7 +20,7 @@ const Kulturgenerator = () => {
     <Layout>
       <TextColumn>
         <Header />
-        <h1 className="text-4xl mb-12">A solidaric online art gallery </h1>
+        <h1 className="text-6xl mb-12">A solidaric online art gallery </h1>
       </TextColumn>
       <div className="mb-16 md:flex md:flex-wrap md:flex-row md:gap-16">
         <div className="basis-1/4">
@@ -39,7 +39,7 @@ const Kulturgenerator = () => {
         </div>
       </div>
       <TextColumn>
-        <p className="mb-4 text-gray-700">
+        <p className="mb-4 text-gray-700 text-lg">
           The <i>kulturgenerator</i> is a generative redistribution machine, an
           experiment, and a online shop that existed during the first year of
           the COVID pandemic. It aimed at increasing the visibility of the
@@ -52,24 +52,24 @@ const Kulturgenerator = () => {
           </Link>{' '}
           to generate income on their own
         </p>
-        <p className="mb-4 text-gray-700">
+        <p className="mb-4 text-gray-700 text-lg">
           Together with friends and partners from the cultural scene of Cologne
           I co-founded the digital gallery. I contributed to the design as well
           as the web development of the application.
         </p>
-        <p className="mb-4 text-gray-700">
+        <p className="mb-4 text-gray-700 text-lg">
           The basic functioning is simple. Artists sell their work in a web
           shop. They can decide if they want to contribute 50 or 100 percent of
           their revenue to a solidaric &quot;money pool&quot; that at the end of
           a round is distributed evenly amongst all participants.
         </p>
-        <p className="mb-4 text-gray-700">
+        <p className="mb-4 text-gray-700 text-lg">
           In two rounds we received 291 artworks and experiences from diverse
           artists and institutions including the Opera of Cologne, the Cologne
           Philharmonic Orchestra, the MAKK (Museum of Applied Arts Cologne) and
           the Wallraf-Richartz-Museum.
         </p>
-        <p className="mb-12 text-gray-700">
+        <p className="mb-12 text-gray-700 text-lg">
           The platform is a collaboration between the Cultural Council of
           Cologne, Niehler Freiheit e.V., and the art center Wachsfabrik.
         </p>
