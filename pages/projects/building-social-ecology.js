@@ -13,7 +13,7 @@ import bsePic4 from '../../public/buildingsocialecology-4.png'
 import bsePic5 from '../../public/buildingsocialecology-5.png'
 
 export async function getStaticProps() {
-  return { props: { isDark: false } }
+  return { props: { isDark: true } }
 }
 
 export default function BuildingSocialEcology() {
@@ -25,10 +25,21 @@ export default function BuildingSocialEcology() {
           An archive of socio-ecological design patterns for architects, city
           developers and residents
         </h1>
+        <p className="mb-4 text-gray-300">
+          Cities and buildings can be described through interacting, overlapping
+          and mutually influencing patterns.
+        </p>
+        <p className="mb-4 text-gray-300">
+          In the DBU-funded (Deutsche Bundesstiftung Umwelt) research project I
+          helped a team from the University of Applied Sciences in Potsdam and a
+          cultural center in Bratislava with designing the projects website. We
+          worked together on on a new platform where they can publish and
+          archive their research more easily.
+        </p>
         <Link
           href="https://www.buildingsocialecology.org/"
-          className="text-gray-900"
-          variant="underline-dark"
+          className="text-gray-300"
+          variant="underline-white"
         >
           www.buildingsocialecology.org <span>↗</span>
         </Link>
