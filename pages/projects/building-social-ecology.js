@@ -21,29 +21,22 @@ export default function BuildingSocialEcology() {
     <Layout>
       <TextColumn>
         <Header />
-        <h1 className="text-5xl mb-8">
-          An archive of socio-ecological design patterns for a sustainable
-          construction
-        </h1>
+        <h1 className="text-5xl mb-8">Building Social Ecology</h1>
         <p className="mb-4 text-gray-300">
           Building Social Ecology is a web page that showcases sustainable
           design patterns for architects, residents and city developers in
           Europe.
         </p>
         <p className="mb-4 text-gray-300">
-          In this DBU-funded (Deutsche Bundesstiftung Umwelt) research project I
-          helped a team from the University of Applied Sciences in Potsdam and a
-          cultural center in Bratislava with designing the projects website. We
-          worked together on on a new platform where they can publish and
-          archive research more easily.
+          In this project I helped a team from the University of Applied
+          Sciences in Potsdam and a cultural center in Bratislava with designing
+          the projects website. We worked together on on a new platform where
+          they can publish and archive research more easily.
         </p>
         <p className="mb-4 text-gray-300">
           My process included conducting workshops with the project partners,
-          collecting visual inspiration in a moodboard, building wireframes and
-          designing the interface of the application in Figma.
-        </p>
-        <p className="mb-4 text-gray-300">
-          For the implementation I developed a custom theme in WordPress.
+          collecting visual inspiration, building wireframes and designing the
+          interface of the application in Figma.
         </p>
         <Link
           href="https://www.buildingsocialecology.org/"

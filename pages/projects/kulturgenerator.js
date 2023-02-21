@@ -4,6 +4,7 @@ import TextColumn from '../../components/text-column'
 import KulturgeneratorLogos from '../../components/kulturgenerator-logos'
 import Image from '../../components/image'
 import Footer from '../../components/footer'
+import Link from '../../components/link'
 
 // Load images
 import kulturgeneratorScreen from '../../public/kulturgenerator/kulturgenerator-screen.png'
@@ -20,7 +21,7 @@ const Kulturgenerator = () => {
       <TextColumn>
         <Header />
         <h1 className="text-4xl mb-12">
-          Blueprint for a solidaric Online art gallery{' '}
+          Blueprint for a solidaric online art gallery{' '}
         </h1>
       </TextColumn>
       <div className="mb-16 md:flex md:flex-wrap md:flex-row md:gap-16">
@@ -28,6 +29,7 @@ const Kulturgenerator = () => {
           <Image
             src={kulturgeneratorScreen}
             alt="Screenshot from the Kulturgenerator App"
+            className="mb-6"
           />
         </div>
         <div className="basis-1/2">
@@ -40,48 +42,36 @@ const Kulturgenerator = () => {
       </div>
       <TextColumn>
         <p className="mb-4 text-gray-700">
-          The kulturgenerator is a generative redistribution machine, an
+          The <i>kulturgenerator</i> is a generative redistribution machine, an
           experiment, and a online shop that existed during the first year of
-          the COVID pandemic. It aimed at increasing the visibility of the
-          cultural scene in times of quarantine and providing artists with a
-          tool to generate income on their own.
+          the COVID pandemic from 2020 - 2021. It aimed at increasing the
+          visibility of the cultural scene in{' '}
+          <Link
+            href="https://www.ksta.de/kultur-medien/kulturgenerator-online-galerie-soll-kuenstlern-in-der-krise-helfen-157774"
+            variant="underline-dark"
+          >
+            times of quarantine <span>↗</span>
+          </Link>{' '}
+          and providing artists with a digital tool to generate income on their
+          own.
         </p>
         <p className="mb-4 text-gray-700">
           Together with friends and partners from the cultural scene in Cologne
-          I co-founded the digital gallery.
+          I co-founded the digital gallery. I contributed to the design as well
+          as the web development of the application.
         </p>
         <p className="mb-4 text-gray-700">
-          The kulturgenerator generates revenues based on a round-based
-          principle. Artists sell their work in a virtual gallery. They can
-          decide if they want to contribute 50 or 100 percent of the selling
-          price to a &quot;money pool&quot;. At the end of a round the money
-          pool is distributed evenly amongst all participants.
+          The basic functioning is simple. Artists sell their work in a web
+          shop. They can decide if they want to contribute 50 or 100 percent of
+          their revenue to a solidaric &quot;money pool&quot; that at the end of
+          a round is distributed evenly amongst all participants. This principle
+          allowed more established artists to support newcomers.
         </p>
         <p className="mb-4 text-gray-700">
-          In two rounds more than 19.000 € were generated. The shop received 291
-          artworks and experiences from diverse artists and institutions
-          including the Opera of Cologne, the Cologne Philharmonic Orchestra,
-          the MAKK (Museum of Applied Arts) and the Wallraf-Richartz-Museum.
-        </p>
-        <p className="mb-4 text-gray-700">
-          By using gamification the gallery engaged users while exploring the
-          offerings. The key feature of the shop was a moving banner that
-          prominently showed the current monetary value of the fund. As soon as
-          an artwork was sold, micro animations visualized the increase of the
-          account balances and by doing so nudged the user to buy more art.
-        </p>
-        <p className="mb-4 text-gray-700">
-          In this project I worked with web developer Moritz Pflüger in
-          implementing the backend of the online shop. We decided to build a
-          shop system from scratch, as we did not find a solution that was
-          tailored to our specific (legal) requirements.
-        </p>
-        <p className="mb-4 text-gray-700">
-          Features of the web shop were invoice generation, payments and e-mail
-          notifications. Choosing the Jamstack (Nuxt.js, Strapi Headless-CMS) to
-          implement these features was a good decision, as it gave us the
-          flexibility to combine different micro-services such as PayPal for
-          payments.
+          In two rounds we received 291 artworks and experiences from diverse
+          artists and institutions including the Opera of Cologne, the Cologne
+          Philharmonic Orchestra, the MAKK (Museum of Applied Arts Cologne) and
+          the Wallraf-Richartz-Museum.
         </p>
         <p className="mb-12 text-gray-700">
           The platform is a collaboration between the Cultural Council of
@@ -93,8 +83,8 @@ const Kulturgenerator = () => {
         <Image
           src={kulturgeneratorCMS}
           alt="Screenshot from the Kulturgenerator App"
-          className="w-2/3 drop-shadow-xl"
-          caption="Screenshot of the Headless-CMS Strapi"
+          className="md:w-2/3 border border-gray-300 rounded-xl"
+          caption="Screenshot of the custom backend built with the Headless-CMS Strapi."
         />
       </div>
       <Footer variant="project" />

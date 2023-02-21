@@ -19,7 +19,7 @@ function Image({ src, alt, className, href, caption }) {
     image = (
       <>
         {image}
-        <span className="text-xs">{caption}</span>
+        <div className="text-xs mt-1 leading-snug">{caption}</div>
       </>
     )
   }
