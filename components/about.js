@@ -29,7 +29,7 @@ export default function About() {
       <div className="text-gray-500 md:basis-2/4">LinkedIn</div>
       <Link
         href="https://www.linkedin.com/in/milanbargiel"
-        className="inline-block text-gray-300 mb-4"
+        className="inline-block text-gray-300"
         variant="underline-white"
       >
         @milanbargiel
