@@ -5,9 +5,9 @@ export default function About() {
     <div className="md:text-lg">
       <div className="mb-12 text-gray-300">
         <h2 className="font-semibold mb-4 text-white">About</h2>Curious problem
-        solver with a particular interest in UX design, research and web
-        technologies. Works at the intersection between engineering and design.
-        I speak German, English, Spanish and some Portuguese and Dutch. Former
+        solver with a particular interest future technologies, research and UX
+        design. Works at the intersection between engineering and design. I
+        speak German, English, Spanish and some Portuguese and Dutch. Former
         editorial product owner at&nbsp;
         <Link
           variant="underline-white"
