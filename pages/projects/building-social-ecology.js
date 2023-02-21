@@ -23,15 +23,15 @@ export default function BuildingSocialEcology() {
         <Header />
         <h1 className="text-5xl mb-8">Building Social Ecology</h1>
         <p className="mb-4 text-gray-300">
-          Building Social Ecology is a web page that showcases sustainable
-          design patterns for architects, residents and city developers in
-          Europe.
+          The web page showcases sustainable design patterns for architects,
+          residents and city developers in Europe.
         </p>
         <p className="mb-4 text-gray-300">
-          In this project I helped a team from the University of Applied
-          Sciences in Potsdam and a cultural center in Bratislava with designing
-          the projects website. We worked together on on a new platform where
-          they can publish and archive research more easily.
+          In this project I helped a team of researchers from the University of
+          Applied Sciences in Potsdam and Nova Cvernovka, a cultural center in
+          Bratislava, with designing the projects website. We worked together on
+          on a new platform where they can publish and archive research more
+          easily.
         </p>
         <p className="mb-4 text-gray-300">
           My process included conducting workshops with the project partners,
