@@ -24,7 +24,7 @@ export default function BuildingSocialEcology() {
         <h1 className="text-6xl mb-12">
           An archive for social-ecological design patterns
         </h1>
-        <p className="mb-4 text-gray-300 text-lg">
+        {/* <p className="mb-4 text-gray-300 text-lg">
           Cities and buildings can be described through interacting, overlapping
           and mutually influencing patterns. Building Social Ecology is a
           research project from the University of Applied Sciences in Potsdam
@@ -44,7 +44,7 @@ export default function BuildingSocialEcology() {
           . I helped the team with designing the projects website. We worked
           together on on a new platform where they can publish and archive their
           research more easily.
-        </p>
+        </p> */}
         <Link
           href="https://www.buildingsocialecology.org/"
           className="text-gray-300 text-lg"
