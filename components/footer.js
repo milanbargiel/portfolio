@@ -14,7 +14,6 @@ const Footer = ({ variant }) => {
       break
     case 'legal':
       showBackLink = true
-      showCopyright = true
       break
   }
 
@@ -35,11 +34,6 @@ const Footer = ({ variant }) => {
         >
           Legal notice & data privacy
         </Link>
-      )}
-      {variant === 'legal' && (
-        <div className="text-xs font-semibold text-gray-600 leading-none">
-          © 2023
-        </div>
       )}
       {variant === 'project' && (
         <div className="text-xs font-semibold text-gray-600 leading-none">

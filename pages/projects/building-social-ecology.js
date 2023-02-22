@@ -21,24 +21,33 @@ export default function BuildingSocialEcology() {
     <Layout>
       <TextColumn>
         <Header />
-        <h1 className="text-5xl mb-8">
-          An archive of socio-ecological design patterns for architects, city
-          developers and residents
+        <h1 className="text-6xl mb-12">
+          An archive for social-ecological design patterns
         </h1>
-        <p className="mb-4 text-gray-300">
+        <p className="mb-4 text-gray-300 text-lg">
           Cities and buildings can be described through interacting, overlapping
-          and mutually influencing patterns.
+          and mutually influencing patterns. Building Social Ecology is a
+          research project from the University of Applied Sciences in Potsdam
+          and Nova Cvernovka, a cultural center in Bratislava, that showcases
+          best practices for sustainable buildings, inspired by the pattern
+          language of architect Cristopher Alexander.
         </p>
-        <p className="mb-4 text-gray-300">
-          In the DBU-funded (Deutsche Bundesstiftung Umwelt) research project I
-          helped a team from the University of Applied Sciences in Potsdam and a
-          cultural center in Bratislava with designing the projects website. We
-          worked together on on a new platform where they can publish and
-          archive their research more easily.
+        <p className="mb-4 text-gray-300 text-lg">
+          The project is funded by the{' '}
+          <Link
+            href="https://www.dbu.de/123artikel39116_2430.html"
+            className="text-gray-300 text-lg"
+            variant="underline-white"
+          >
+            Deutsche Bundesstiftung Umwelt
+          </Link>
+          . I helped the team with designing the projects website. We worked
+          together on on a new platform where they can publish and archive their
+          research more easily.
         </p>
         <Link
           href="https://www.buildingsocialecology.org/"
-          className="text-gray-300"
+          className="text-gray-300 text-lg"
           variant="underline-white"
         >
           www.buildingsocialecology.org <span>↗</span>
@@ -56,7 +65,12 @@ export default function BuildingSocialEcology() {
             />
           </div>
           <div className="basis-full mb-8 md:mb-0 md:flex-1">
-            <Image src={bsePic2} alt="Moodboard" className="hidden md:block" />
+            <Image
+              src={bsePic2}
+              alt="Moodboard"
+              className="hidden md:block"
+              caption="Moodboard to collect inspiration for the interface"
+            />
           </div>
         </div>
         {/* Another flex row */}
