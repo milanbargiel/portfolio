@@ -5,11 +5,13 @@ import NextImage from 'next/image'
 import PropTypes from 'prop-types'
 
 function Image({ src, alt, className, href, caption }) {
+  const isSVG = src.src.split('.').pop() === 'svg'
+
   // Create image
   let image = (
     <NextImage
       src={src}
-      placeholder="blur"
+      placeholder={isSVG ? 'empty' : 'blur'} // Only apply placeholder blur effect to non vector based images
       className={className ? className : ''}
       alt={alt ? alt : ''}
     />
