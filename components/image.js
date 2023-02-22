@@ -9,6 +9,7 @@ function Image({ src, alt, className, href, caption }) {
   let image = (
     <NextImage
       src={src}
+      placeholder="blur"
       className={className ? className : ''}
       alt={alt ? alt : ''}
     />
