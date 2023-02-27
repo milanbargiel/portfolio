@@ -24,8 +24,9 @@ const Kulturgenerator = () => {
       </TextColumn>
       <TextColumn>
         <p className="mb-4 text-gray-700 text-lg">
-          In 2019, news media ZEIT ONLINE replaced its Drupal-based comments
-          database with a lightweight, flexible, and scalable system.
+          In 2019, news media ZEIT ONLINE replaced its legacy comments database
+          with a lightweight, flexible, and scalable system that is orchestrated
+          in the cloud.
         </p>
         <p className="mb-4 text-gray-700 text-lg">
           In this project, I took the role of a technical product owner together
@@ -68,7 +69,7 @@ const Kulturgenerator = () => {
             src={commentsRollout}
             className="drop-shadow-sm rounded-lg"
             alt="The dashboard of the database during roll-out"
-            caption="Dashboard of the database during roll-out."
+            caption="CPU-utilisation of the database during roll-out."
           />
         </div>
       </div>

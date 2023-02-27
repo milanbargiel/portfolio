@@ -55,11 +55,30 @@ export default function ProjectList() {
         <Project
           roles={['Technical Product Owner']}
           title="A database that stores more than 10.000 comments a day"
-          image={commentsPic}
-          imageAlt="Screenshot from ZEIT ONLINE"
-          imageStyles="rounded-md w-3/4 hover:cursor-pointer"
-          imageLink="/projects/comments-database"
-        ></Project>
+        >
+          <p className="mb-4">
+            In 2019, news media ZEIT ONLINE replaced its legacy comments
+            database with a lightweight, flexible, and scalable system that is
+            orchestrated in the cloud.
+          </p>
+          <p className="mb-4">
+            In this project, I took the role of a technical product owner
+            together with my colleague{' '}
+            <Link
+              href="https://www.zeit.de/autoren/S/Thomas_Strothjohann/index"
+              variant="underline-dark"
+            >
+              Thomas Strothjohann
+            </Link>
+            . Our responsibility was to represent the perspective of users,
+            moderators, and the newsroom in the development process and to set
+            up an agile practice that works well for the team of engineers.
+          </p>
+          <p className="mb-4">
+            Reconnecting a service deeply intertwined with the basic functioning
+            of the news web page was an inspiring challenge.
+          </p>
+        </Project>
         <Project
           roles={['Co-Founder']}
           title="A solidaric art gallery in times of quarantine and isolation"
