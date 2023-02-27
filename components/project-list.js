@@ -53,7 +53,7 @@ export default function ProjectList() {
           color="#07D070"
         ></Project>
         <Project
-          roles={['Product Owner', 'Technical Project Management']}
+          roles={['Technical Product Owner']}
           title="A database that stores more than 10.000 comments a day"
           image={commentsPic}
           imageAlt="Screenshot from ZEIT ONLINE"
