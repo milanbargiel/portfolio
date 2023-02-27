@@ -1,6 +1,7 @@
 import Project from '../components/project'
 import bsePic from '../public/buildingsocialecology.png'
 import kulturgeneratorPic from '../public/kulturgenerator/kulturgenerator.png'
+import commentsPic from '../public/zon-browser.png'
 import Link from '../components/link'
 
 export default function ProjectList() {
@@ -54,27 +55,14 @@ export default function ProjectList() {
         <Project
           roles={['Product Owner', 'Technical Project Management']}
           title="A lightweight, scalable database that stores more than 10.000 comments a day"
-        >
-          <p className="mb-4">
-            In 2020, the news website ZEIT ONLINE replaced its comments database
-            with a lightweight, flexible and scalable system that stores more
-            than 10.000 new comments a day.
-          </p>
-          <p className="mb-4">
-            As a product owner, I and my colleague Thomas Strotjohann set up an
-            agile development process and defined the database’s qualities in
-            user stories. The challenge was to exchange databases during live
-            operations.
-          </p>
-          <p className="mb-4">
-            Working in the invisible and reconnecting a service deeply
-            intertwined with the basic functioning of the news web page was an
-            inspiring challenge.
-          </p>
-        </Project>
+          image={commentsPic}
+          imageAlt="Screenshot from the kulturgenerator web interface"
+          imageStyles="rounded-md w-3/4 hover:cursor-pointer"
+          imageLink="/projects/kulturgenerator"
+        ></Project>
         <Project
           roles={['Co-Founder']}
-          title="Kulturgenerator: A solidaric art gallery in times of quarantine and isolation"
+          title="A solidaric art gallery in times of quarantine and isolation"
           image={kulturgeneratorPic}
           imageAlt="Screenshot from the kulturgenerator web interface"
           imageStyles="my-4 ml-2 w-2/3 -rotate-6 rounded-md md:w-3/5 2xl:w-4/5 drop-shadow-sm"
