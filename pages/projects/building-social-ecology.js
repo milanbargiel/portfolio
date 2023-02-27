@@ -22,7 +22,7 @@ export default function BuildingSocialEcology() {
       <TextColumn>
         <Header />
         <h1 className="text-6xl mb-12">
-          An archive for social-ecological design patterns
+          An archive of socio-ecological design patterns
         </h1>
         {/* <p className="mb-4 text-gray-300 text-lg">
           Cities and buildings can be described through interacting, overlapping

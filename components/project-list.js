@@ -54,11 +54,11 @@ export default function ProjectList() {
         ></Project>
         <Project
           roles={['Product Owner', 'Technical Project Management']}
-          title="A lightweight, scalable database that stores more than 10.000 comments a day"
+          title="A database that stores more than 10.000 comments a day"
           image={commentsPic}
-          imageAlt="Screenshot from the kulturgenerator web interface"
+          imageAlt="Screenshot from ZEIT ONLINE"
           imageStyles="rounded-md w-3/4 hover:cursor-pointer"
-          imageLink="/projects/kulturgenerator"
+          imageLink="/projects/comments-database"
         ></Project>
         <Project
           roles={['Co-Founder']}
