@@ -62,17 +62,17 @@ export default function ProjectList() {
             orchestrated in the cloud.
           </p>
           <p className="mb-4">
-            In this project, I took the role of a technical product owner
-            together with my colleague{' '}
+            As a technical product owner my role was to represent the
+            perspective of users, moderators, and the newsroom in the
+            development of the database. Together with my colleague{' '}
             <Link
               href="https://www.zeit.de/autoren/S/Thomas_Strothjohann/index"
               variant="underline-dark"
             >
               Thomas Strothjohann
             </Link>
-            . Our responsibility was to represent the perspective of users,
-            moderators, and the newsroom in the development process and to set
-            up an agile practice that works well for the team of engineers.
+            , I set up an agile practice and defined the qualities of the
+            database in user stories.
           </p>
           <p className="mb-4">
             Reconnecting a service deeply intertwined with the basic functioning
