@@ -66,8 +66,8 @@ const Kulturgenerator = () => {
         <p className="mb-4 text-gray-700 text-lg">
           In two rounds we received 291 artworks and experiences from diverse
           artists and institutions including the Opera of Cologne, the Cologne
-          Philharmonic Orchestra, the MAKK (Museum of Applied Arts Cologne) and
-          the Wallraf-Richartz-Museum.
+          Philharmonic Orchestra, the MAKK (Museum of Applied Arts) and the
+          Wallraf-Richartz-Museum.
         </p>
         <p className="mb-12 text-gray-700 text-lg">
           The platform is a collaboration between the Cultural Council of
