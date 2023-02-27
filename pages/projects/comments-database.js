@@ -68,6 +68,7 @@ const Kulturgenerator = () => {
             src={commentsRollout}
             className="drop-shadow-sm rounded-lg"
             alt="The dashboard of the database during roll-out"
+            caption="Dashboard of the database during roll-out."
           />
         </div>
       </div>
