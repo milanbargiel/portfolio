@@ -6,8 +6,11 @@ export default function About() {
       <div className="mb-12 text-gray-300">
         <h2 className="font-semibold mb-4 text-white">About</h2>Curious problem
         solver with a specialization in web technologies, research and UX
-        design. I speak German, English, Spanish and some Portuguese and Dutch.
-        Former editorial product owner at&nbsp;
+        design. I build digital products remotely for{' '}
+        <Link variant="underline-white" href="https://www.okaybueno.com/">
+          okay bueno
+        </Link>
+        . Former editorial product owner at&nbsp;
         <Link
           variant="underline-white"
           href="https://www.zeit.de/autoren/B/Milan_Bargiel/index"
