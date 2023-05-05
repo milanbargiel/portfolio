@@ -44,7 +44,7 @@ export default function ProjectList() {
           </div>
         </Project>
         <Project
-          roles={['Interface Design', 'Web Development']}
+          roles={['Interface Design']}
           title="An archive of socio-ecological design patterns for architects, city developers and residents"
           image={bsePic}
           imageAlt="Screenshot of buildingsocialecology.org"
